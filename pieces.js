@@ -23,14 +23,16 @@
 //
 //  AVAILABLE FEATURED PIECE:
 //    {
-//      name: "Walnut Tallboy",
-//      era: "1960s · Mid-Century",
+//      name: "Vintage 1950s Walnut Credenza by Madison Furniture Company",
+//      era: "1950s · Mid-Century",
 //      category: "storage",
-//      price: "$685",
+//      price: "$850",
+//      oldPrice: "$1450",
+//      status: "drop",
 //      status: "available",
 //      featured: true,
-//      instagramUrl: "https://www.instagram.com/p/XXXXXX/",
-//      image: "walnut-tallboy.jpg"
+//      instagramUrl: "https://www.instagram.com/p/DVrFUIuEUs1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+//      image: "vintage-1950s-walnut-credenza-by-madison-furniture-company.jpg"
 //    },
 //
 //  PRICE DROP:
