@@ -26,10 +26,10 @@
 //      name: "Walnut Tallboy",
 //      era: "1960s · Mid-Century",
 //      category: "storage",
-//      price: "$685",
+//      price: "$650",
 //      status: "available",
 //      featured: true,
-//      instagramUrl: "https://www.instagram.com/p/XXXXXX/",
+//      instagramUrl: "https://www.instagram.com/p/######",
 //      image: "walnut-tallboy.jpg"
 //    },
 //
@@ -74,16 +74,15 @@
 
 const pieces = [
   {
-    name: "Walnut Tallboy",
-    era: "1960s · Mid-Century",
+    name: "Vintage 1950s Walnut Credenza by Madison Furniture Company",
+    era: "1950s · Mid-Century",
     category: "storage",
-    price: "$685",
-    status: "available",
+    price: "$850",
+    oldPrice: "$1450",
+    status: "drop",
     featured: true,
-    instagramUrl: "https://www.instagram.com/taaffevintage/",
-    image: "",
-    palette: ["#6a4228", "#8a5a3b", "#b88a5a"],
-    shape: "tallboy"
+    instagramUrl: "https://www.instagram.com/p/DVrFUIuEUs1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    image: "madison-credenza.jpg",
   },
   {
     name: "The Goodwill Dresser",
