@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Available Pieces — Taaffe Vintage</title>
+<meta name="description" content="Browse the current inventory of hand-refinished vintage furniture at Taaffe Vintage. Filter by category and availability." />
+<!-- <link rel="icon" type="image/png" href="favicon.png" /> -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand-mark" href="index.html">
+    <span class="brand-text">Taaffe <span>Vintage</span></span>
+    <!-- <img class="brand-logo" src="logo.png" alt="Taaffe Vintage" /> -->
+  </a>
+  <nav>
+    <ul>
+      <li><a href="index.html#story">Story</a></li>
+      <li><a href="available.html" class="active">Available</a></li>
+      <li><a href="index.html#process">Process</a></li>
+      <li><a href="index.html#horses">The Herd</a></li>
+      <li><a href="index.html#heritage">Heritage</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Houston, Texas</div>
+    <h1 class="page-title">The current <em>inventory.</em></h1>
+    <p class="page-sub">
+      Tap any piece to view the full Instagram post — more photos, dimensions, and the full description.
+      To purchase, send a DM to <strong>@taaffevintage</strong>. By purchasing, you agree to our
+      <a href="#" class="policy-link" data-open-policy>policy</a>.
+    </p>
+  </div>
+</section>
+
+<section class="filter-bar">
+  <div class="container">
+    <div class="filter-group">
+      <span class="filter-label">Category</span>
+      <div class="filter-pills" id="categoryPills">
+        <button class="pill active" data-filter="category" data-value="all">All</button>
+        <button class="pill" data-filter="category" data-value="storage">Storage</button>
+        <button class="pill" data-filter="category" data-value="tables">Tables</button>
+        <button class="pill" data-filter="category" data-value="seating">Seating</button>
+        <button class="pill" data-filter="category" data-value="lighting-decor">Lighting &amp; Decor</button>
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Status</span>
+      <div class="filter-pills" id="statusPills">
+        <button class="pill active" data-filter="status" data-value="all">All</button>
+        <button class="pill" data-filter="status" data-value="available">Available</button>
+        <button class="pill" data-filter="status" data-value="drop">Price drops</button>
+        <button class="pill" data-filter="status" data-value="sold">Recently sold</button>
+      </div>
+    </div>
+    <div class="filter-count" id="filterCount"></div>
+  </div>
+</section>
+
+<section class="available-page">
+  <div class="container">
+    <div class="piece-grid" id="pieceGrid"></div>
+    <div class="empty-state" id="emptyState" style="display: none;">
+      <p>No pieces match those filters right now. Try widening the search.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-grid">
+    <div>
+      <div class="foot-brand">Taaffe <em>Vintage</em></div>
+      <p class="foot-tag">Hand-refinished vintage furniture out of Houston, Texas. Operated by Brianna Byrd — engineer by day, refinisher by night, horse rescuer by weekend.</p>
+    </div>
+    <div class="foot-col">
+      <h5>Shop</h5>
+      <a href="available.html">Available</a>
+      <a href="https://www.instagram.com/taaffevintage/" target="_blank" rel="noopener">Sold archive (IG)</a>
+      <a href="https://www.instagram.com/taaffevintage/" target="_blank" rel="noopener">Price drops (IG)</a>
+    </div>
+    <div class="foot-col">
+      <h5>About</h5>
+      <a href="index.html#story">The story</a>
+      <a href="index.html#process">The process</a>
+      <a href="index.html#horses">The herd</a>
+      <a href="index.html#heritage">Heritage</a>
+    </div>
+    <div class="foot-col">
+      <h5>Connect</h5>
+      <a href="https://www.instagram.com/taaffevintage/" target="_blank" rel="noopener">Instagram</a>
+      <a href="#" class="policy-link" data-open-policy>Policy</a>
+      <span>Houston, TX</span>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>&copy; Taaffe Vintage. All pieces one of a kind.</span>
+    <span class="script" style="font-size: 18px; color: var(--saddle);">rescued &amp; refinished</span>
+  </div>
+</footer>
+
+<!-- POLICY MODAL (same as homepage) -->
+<div class="policy-modal" id="policyModal" aria-hidden="true">
+  <div class="policy-backdrop" data-close-policy></div>
+  <div class="policy-panel" role="dialog" aria-labelledby="policyTitle">
+    <button class="policy-close" data-close-policy aria-label="Close policy">&times;</button>
+    <div class="policy-content">
+      <div class="eyebrow" style="justify-content: center; margin-bottom: 14px;">For your records</div>
+      <h2 id="policyTitle">Our <em>policy</em></h2>
+
+      <div class="policy-section">
+        <h3>Sales &amp; Holds</h3>
+        <p>Thank you for following Taaffe Vintage. Every piece is vintage and sold as-is, with normal signs of wear and use that come with age — scratches, scuffs, stains, and chips can be present. Major damage is disclosed in the listing, but not every flaw is easily photographed. Please ask for additional photos or details before purchasing if you have any questions. <strong>All sales are final.</strong></p>
+        <p>Items are listed across multiple platforms (Instagram, Facebook Marketplace, and others) and sold first-come, first-served. <strong>Availability is not guaranteed until a deposit or full payment has been received.</strong></p>
+        <p>Pieces cannot be held without a non-refundable deposit of 50% of the purchase price. Once paid in full, items must be picked up or have delivery arranged within 30 days. Items not picked up within 30 days will be relisted, and deposits are not refunded.</p>
+      </div>
+
+      <div class="policy-section">
+        <h3>Delivery &amp; Pickup</h3>
+        <p>Pickup is available <strong>by appointment in Kingwood, TX</strong> (NE Houston area).</p>
+        <p>Local curbside delivery is available for an additional cost based on mileage. To arrange delivery, we'll first confirm the exact delivery address, agreed-upon date and time, and final delivery cost. After the delivery plan is confirmed, a 50% non-refundable deposit on the piece is required to lock in the schedule. The remaining balance is due upon delivery.</p>
+        <p>Confirming the exact address before quoting protects both of us — quotes are based on actual mileage, not approximate location.</p>
+        <p>If you arrange a third-party transport service (whether recommended by us or arranged by you), <strong>full payment for the piece is required before the item leaves our possession.</strong> The transporter is hired and paid directly by you. Any damage during pickup, transit, or drop-off is between you and the transporter. Taaffe Vintage assumes no liability for items once they leave our location with a third party.</p>
+      </div>
+
+      <div class="policy-section">
+        <h3>Payment</h3>
+        <p>We accept Apple Pay, Google Pay, Venmo, Zelle, PayPal, and Cash App. Standard "friends and family" or peer-to-peer transfers carry no fee on either side.</p>
+        <p>If you prefer a protected payment option (PayPal Goods &amp; Services, Venmo Goods &amp; Services, or any payment method that includes purchase protection), we ask that you cover the associated processing fee. This keeps pricing fair for buyers who pay with no-fee options.</p>
+      </div>
+
+      <p class="policy-thanks">Thank you for supporting our small business.</p>
+    </div>
+  </div>
+</div>
+
+<script src="pieces.js"></script>
+<script src="site.js"></script>
+
+</body>
+</html>

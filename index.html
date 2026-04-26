@@ -5,960 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Taaffe Vintage — Furniture rescued and refinished in Houston</title>
 <meta name="description" content="Houston-based vintage furniture, personally refinished by Brianna Byrd. Every piece hand-restored. DM to purchase on Instagram." />
-<!-- TO ADD A FAVICON (browser tab icon): upload favicon.png to your repo and uncomment the next line -->
+<!-- TO ADD A FAVICON: upload favicon.png to your repo and uncomment the next line -->
 <!-- <link rel="icon" type="image/png" href="favicon.png" /> -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;600&display=swap" rel="stylesheet" />
-<style>
-  :root {
-    --paper: #F7F7F2;
-    --paper-warm: #efeee7;
-    --ink: #1f1a15;
-    --walnut: #3a2a1c;
-    --saddle: #8a5a3b;
-    --rust: #a4472f;
-    --moss: #5a6b3e;
-    --cream: #fcfcf7;
-    --muted: #7a6a58;
-  }
-
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
-
-  body {
-    background: var(--paper);
-    color: var(--ink);
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    line-height: 1.55;
-    -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
-    background-image:
-      radial-gradient(circle at 20% 10%, rgba(120, 100, 70, 0.03), transparent 50%),
-      radial-gradient(circle at 80% 60%, rgba(90, 107, 62, 0.03), transparent 50%);
-  }
-
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    pointer-events: none;
-    opacity: 0.22;
-    z-index: 1;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' seed='3'/><feColorMatrix values='0 0 0 0 0.12  0 0 0 0 0.10  0 0 0 0 0.08  0 0 0 0.08 0'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>");
-    mix-blend-mode: multiply;
-  }
-
-  .display { font-family: 'Fraunces', serif; }
-  .script  { font-family: 'Caveat', cursive; }
-
-  /* TOP BAR */
-  .topbar {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px 40px;
-    background: rgba(247, 247, 242, 0.92);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(31, 26, 21, 0.12);
-  }
-  .brand-mark {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: var(--walnut);
-  }
-  /* TEXT FALLBACK — shown if no logo image is set */
-  .brand-text {
-    font-family: 'Fraunces', serif;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-  }
-  .brand-text span { font-style: italic; color: var(--saddle); }
-  /* LOGO IMAGE — shown when you swap in your file */
-  .brand-logo {
-    height: 56px;
-    width: auto;
-    display: block;
-  }
-
-  nav ul { list-style: none; display: flex; gap: 28px; }
-  nav a {
-    text-decoration: none;
-    color: var(--ink);
-    font-size: 13px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    font-weight: 500;
-    position: relative;
-    padding-bottom: 2px;
-    transition: color 0.2s;
-  }
-  nav a::after {
-    content: '';
-    position: absolute;
-    left: 0; right: 100%;
-    bottom: -2px;
-    height: 1px;
-    background: var(--saddle);
-    transition: right 0.25s ease;
-  }
-  nav a:hover { color: var(--saddle); }
-  nav a:hover::after { right: 0; }
-
-  /* HERO */
-  .hero {
-    position: relative;
-    padding: 90px 40px 80px;
-    max-width: 1400px;
-    margin: 0 auto;
-    z-index: 2;
-  }
-  .hero-grid {
-    display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 60px;
-    align-items: end;
-  }
-  .eyebrow {
-    font-size: 12px;
-    letter-spacing: 0.28em;
-    text-transform: uppercase;
-    color: var(--saddle);
-    margin-bottom: 28px;
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-  }
-  .eyebrow::before {
-    content: '';
-    width: 32px; height: 1px;
-    background: var(--saddle);
-  }
-  h1.hero-title {
-    font-family: 'Fraunces', serif;
-    font-weight: 300;
-    font-size: clamp(52px, 7vw, 104px);
-    line-height: 0.96;
-    letter-spacing: -0.02em;
-    color: var(--walnut);
-  }
-  h1.hero-title em {
-    font-style: italic;
-    font-weight: 400;
-    color: var(--rust);
-  }
-  .hero-sub {
-    margin-top: 32px;
-    font-size: 17px;
-    line-height: 1.65;
-    max-width: 460px;
-    color: var(--ink);
-  }
-  .hero-meta {
-    display: flex;
-    gap: 40px;
-    margin-top: 40px;
-    padding-top: 24px;
-    border-top: 1px solid rgba(31, 26, 21, 0.15);
-    max-width: 460px;
-  }
-  .hero-meta div { flex: 1; }
-  .hero-meta .num {
-    font-family: 'Fraunces', serif;
-    font-size: 28px;
-    color: var(--walnut);
-    display: block;
-    line-height: 1;
-  }
-  .hero-meta .lab {
-    font-size: 11px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-top: 8px;
-    display: block;
-  }
-
-  /* HERO VISUAL — three vertical wood panels with sticker overlay */
-  .hero-visual {
-    position: relative;
-    aspect-ratio: 4 / 5;
-    max-width: 480px;
-    justify-self: end;
-    width: 100%;
-  }
-  .wood-panels {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    height: 100%;
-    width: 100%;
-  }
-  .wood-panel {
-    position: relative;
-    overflow: hidden;
-    background: var(--cream);
-    border: 1px solid rgba(31, 26, 21, 0.1);
-    box-shadow: 0 20px 40px -20px rgba(31, 26, 21, 0.3);
-  }
-  .wood-panel:nth-child(1) { transform: translateY(0); }
-  .wood-panel:nth-child(2) { transform: translateY(-15px); }
-  .wood-panel:nth-child(3) { transform: translateY(8px); }
-
-  .wood-panel img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .wood-panel .panel-placeholder {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 16px;
-    color: var(--muted);
-  }
-  .wood-panel .panel-placeholder svg {
-    width: 32px; height: 32px;
-    opacity: 0.4;
-    margin-bottom: 10px;
-  }
-  .wood-panel .panel-placeholder p {
-    font-family: 'Fraunces', serif;
-    font-style: italic;
-    font-size: 12px;
-    line-height: 1.3;
-  }
-  .wood-panel .panel-label {
-    position: absolute;
-    bottom: 12px; left: 12px; right: 12px;
-    background: rgba(252, 252, 247, 0.92);
-    padding: 6px 8px;
-    font-family: 'Inter', sans-serif;
-    font-size: 9px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--walnut);
-    text-align: center;
-    backdrop-filter: blur(4px);
-  }
-
-  /* The sticker — bottom right corner, overlapping panel */
-  .wood-stamp {
-    position: absolute;
-    bottom: -15px;
-    right: -15px;
-    width: 130px;
-    height: 130px;
-    border: 1.5px solid var(--walnut);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: var(--cream);
-    transform: rotate(8deg);
-    padding: 14px;
-    box-shadow: 0 10px 24px -5px rgba(31, 26, 21, 0.3);
-    z-index: 3;
-  }
-  .wood-stamp span {
-    font-family: 'Fraunces', serif;
-    font-style: italic;
-    font-size: 14px;
-    line-height: 1.15;
-    color: var(--walnut);
-  }
-
-  section { position: relative; z-index: 2; }
-  .container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 40px;
-  }
-  .section-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 48px;
-    gap: 40px;
-    flex-wrap: wrap;
-  }
-  .section-head h2 {
-    font-family: 'Fraunces', serif;
-    font-weight: 300;
-    font-size: clamp(36px, 5vw, 60px);
-    letter-spacing: -0.015em;
-    line-height: 1;
-    color: var(--walnut);
-  }
-  .section-head h2 em { font-style: italic; color: var(--saddle); }
-  .section-head p {
-    max-width: 420px;
-    color: var(--muted);
-    font-size: 15px;
-  }
-
-  /* STORY — back to two columns (sticky note + copy) */
-  .story {
-    padding: 100px 0 90px;
-    background:
-      linear-gradient(180deg, transparent 0%, rgba(120, 100, 70, 0.03) 50%, transparent 100%);
-  }
-  .story-grid {
-    display: grid;
-    grid-template-columns: 1fr 1.3fr;
-    gap: 80px;
-    align-items: start;
-  }
-  .story-card {
-    background: var(--cream);
-    border: 1px solid rgba(31, 26, 21, 0.1);
-    padding: 36px;
-    position: relative;
-    box-shadow: 0 2px 0 var(--walnut);
-  }
-  .story-card::before {
-    content: '';
-    position: absolute;
-    top: -10px; left: 30px;
-    width: 60px; height: 18px;
-    background: var(--saddle);
-    transform: rotate(-3deg);
-    opacity: 0.85;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-  }
-  .story-label {
-    font-size: 11px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--saddle);
-    margin-bottom: 16px;
-  }
-  .story-card h3 {
-    font-family: 'Fraunces', serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 1.15;
-    margin-bottom: 20px;
-    color: var(--walnut);
-  }
-  .story-card p {
-    color: var(--ink);
-    margin-bottom: 14px;
-    font-size: 15px;
-  }
-  .story-card .note {
-    font-family: 'Caveat', cursive;
-    font-size: 22px;
-    color: var(--saddle);
-    margin-top: 20px;
-    line-height: 1.2;
-    transform: rotate(-1deg);
-    display: inline-block;
-  }
-
-  .story-copy h2 {
-    font-family: 'Fraunces', serif;
-    font-weight: 300;
-    font-size: clamp(38px, 4.5vw, 64px);
-    letter-spacing: -0.02em;
-    line-height: 1.02;
-    color: var(--walnut);
-    margin-bottom: 28px;
-  }
-  .story-copy h2 em { font-style: italic; color: var(--rust); }
-  .story-copy p {
-    font-size: 16px;
-    line-height: 1.75;
-    margin-bottom: 20px;
-    color: var(--ink);
-  }
-
-  /* THREE HATS — simplified: name + adjectives only */
-  .three-hats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    margin-top: 44px;
-  }
-  .hat {
-    padding: 24px 20px;
-    border-top: 2px solid var(--walnut);
-  }
-  .hat-icon {
-    width: 32px; height: 32px;
-    margin-bottom: 16px;
-    color: var(--saddle);
-  }
-  .hat h4 {
-    font-family: 'Fraunces', serif;
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: var(--walnut);
-    line-height: 1.1;
-  }
-  .hat .hat-tags {
-    font-family: 'Inter', sans-serif;
-    font-size: 11px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--rust);
-    font-weight: 500;
-  }
-
-  /* MISSION */
-  .mission {
-    padding: 110px 0;
-    background: linear-gradient(180deg, var(--walnut) 0%, #2e2015 100%);
-    color: var(--cream);
-    position: relative;
-    overflow: hidden;
-  }
-  .mission::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image: repeating-linear-gradient(90deg,
-      rgba(250,245,236,0.025) 0, rgba(250,245,236,0.025) 1px,
-      transparent 1px, transparent 5px);
-    pointer-events: none;
-  }
-  .mission-inner {
-    max-width: 880px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    z-index: 2;
-  }
-  .mission-eyebrow {
-    font-family: 'Caveat', cursive;
-    font-size: 24px;
-    color: #d4a574;
-    margin-bottom: 20px;
-    display: block;
-  }
-  .mission-inner h2 {
-    font-family: 'Fraunces', serif;
-    font-weight: 300;
-    font-size: clamp(42px, 5.5vw, 80px);
-    line-height: 1;
-    letter-spacing: -0.02em;
-    margin-bottom: 36px;
-  }
-  .mission-inner h2 em { font-style: italic; color: #d4a574; }
-  .mission-inner p {
-    font-size: 17px;
-    line-height: 1.8;
-    color: rgba(250,245,236,0.85);
-    max-width: 680px;
-    margin: 0 auto 20px;
-  }
-  .mission-pillars {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    margin-top: 64px;
-    text-align: left;
-  }
-  .pillar {
-    padding-top: 24px;
-    border-top: 1px solid rgba(250, 245, 236, 0.25);
-  }
-  .pillar h4 {
-    font-family: 'Fraunces', serif;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: italic;
-    color: #d4a574;
-    margin-bottom: 12px;
-  }
-  .pillar p {
-    font-size: 14px;
-    line-height: 1.65;
-    color: rgba(250, 245, 236, 0.75);
-    margin: 0;
-  }
-
-  /* AVAILABLE GRID */
-  .available {
-    padding: 90px 0;
-  }
-  .piece-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px 28px;
-  }
-  .piece {
-    position: relative;
-    text-decoration: none;
-    color: inherit;
-    display: block;
-  }
-  .piece-img {
-    aspect-ratio: 4/5;
-    border-radius: 2px;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0 10px 30px -15px rgba(31, 26, 21, 0.35);
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    background: var(--cream);
-  }
-  .piece-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .piece-img svg { width: 100%; height: 100%; display: block; }
-
-  .piece:hover .piece-img {
-    transform: translateY(-4px);
-    box-shadow: 0 20px 40px -15px rgba(31, 26, 21, 0.45);
-  }
-
-  .piece-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(31, 26, 21, 0.55);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-  }
-  .piece-overlay span {
-    color: var(--cream);
-    font-size: 12px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .piece-overlay svg { width: 16px; height: 16px; }
-  .piece:hover .piece-overlay { opacity: 1; }
-  .piece.no-link { cursor: default; }
-  .piece.no-link .piece-overlay { display: none; }
-
-  .piece-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-top: 18px;
-    gap: 16px;
-  }
-  .piece-name {
-    font-family: 'Fraunces', serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--walnut);
-    margin-bottom: 4px;
-  }
-  .piece-meta {
-    font-size: 12px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-  }
-  .piece-price {
-    font-family: 'Fraunces', serif;
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--rust);
-    white-space: nowrap;
-  }
-  .piece-tag {
-    position: absolute;
-    top: 14px; left: 14px;
-    background: var(--cream);
-    color: var(--walnut);
-    font-size: 10px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    padding: 5px 10px;
-    border: 1px solid var(--walnut);
-    z-index: 2;
-  }
-  .piece-tag.sold { background: var(--walnut); color: var(--cream); border-color: var(--walnut); }
-  .piece-tag.drop { background: var(--rust); color: var(--cream); border-color: var(--rust); }
-  .piece.is-sold .piece-img { opacity: 0.72; }
-  .piece.is-sold .piece-price { color: var(--muted); text-decoration: line-through; }
-
-  /* PROCESS */
-  .process {
-    padding: 100px 0;
-    background: var(--walnut);
-    color: var(--cream);
-    position: relative;
-    overflow: hidden;
-  }
-  .process::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image: repeating-linear-gradient(90deg,
-      rgba(250,245,236,0.03) 0, rgba(250,245,236,0.03) 1px,
-      transparent 1px, transparent 4px);
-    pointer-events: none;
-  }
-  .process h2 {
-    font-family: 'Fraunces', serif;
-    font-weight: 300;
-    font-size: clamp(40px, 5vw, 68px);
-    letter-spacing: -0.02em;
-    margin-bottom: 60px;
-    max-width: 800px;
-    line-height: 1.02;
-  }
-  .process h2 em { font-style: italic; color: #d4a574; }
-  .steps {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-  }
-  .step {
-    position: relative;
-    padding-top: 28px;
-    border-top: 1px solid rgba(250,245,236,0.3);
-  }
-  .step-num {
-    font-family: 'Fraunces', serif;
-    font-style: italic;
-    font-size: 14px;
-    color: #d4a574;
-    margin-bottom: 16px;
-    display: block;
-  }
-  .step h3 {
-    font-family: 'Fraunces', serif;
-    font-weight: 400;
-    font-size: 22px;
-    margin-bottom: 12px;
-    color: var(--cream);
-  }
-  .step p {
-    font-size: 13px;
-    line-height: 1.6;
-    color: rgba(250,245,236,0.75);
-  }
-
-  /* HORSES */
-  .horses { padding: 100px 0; }
-  .horses-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 80px;
-    align-items: center;
-  }
-  .horses-visual {
-    aspect-ratio: 1;
-    position: relative;
-    background: var(--cream);
-    border: 1px solid rgba(31, 26, 21, 0.15);
-    padding: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .horses-visual::before {
-    content: '';
-    position: absolute;
-    top: -1px; left: -1px; right: -1px; bottom: -1px;
-    border: 1px solid rgba(31, 26, 21, 0.15);
-    transform: translate(12px, 12px);
-    z-index: -1;
-  }
-  .horses-copy h2 em { color: var(--moss); }
-  .horses-copy p { font-size: 16px; line-height: 1.75; margin-bottom: 20px; }
-  .horse-quote {
-    margin-top: 32px;
-    padding-left: 24px;
-    border-left: 2px solid var(--moss);
-    font-family: 'Fraunces', serif;
-    font-style: italic;
-    font-size: 20px;
-    line-height: 1.4;
-    color: var(--walnut);
-  }
-
-  /* HERITAGE */
-  .heritage {
-    padding: 110px 0;
-    background:
-      linear-gradient(180deg, transparent 0%, rgba(120, 100, 70, 0.04) 50%, transparent 100%);
-    position: relative;
-  }
-  .heritage-intro {
-    max-width: 720px;
-    margin: 0 auto 70px;
-    text-align: center;
-  }
-  .heritage-intro h2 {
-    font-family: 'Fraunces', serif;
-    font-weight: 300;
-    font-size: clamp(40px, 5vw, 72px);
-    line-height: 1;
-    letter-spacing: -0.02em;
-    color: var(--walnut);
-    margin-bottom: 24px;
-  }
-  .heritage-intro h2 em { font-style: italic; color: var(--rust); }
-  .heritage-intro p {
-    font-size: 16px;
-    line-height: 1.7;
-    color: var(--ink);
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  .timeline {
-    max-width: 820px;
-    margin: 0 auto;
-    position: relative;
-  }
-  .timeline::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 20px; bottom: 20px;
-    width: 1px;
-    background: repeating-linear-gradient(to bottom,
-      var(--saddle) 0, var(--saddle) 4px,
-      transparent 4px, transparent 10px);
-  }
-  .gen {
-    display: grid;
-    grid-template-columns: 1fr 60px 1fr;
-    margin-bottom: 50px;
-    align-items: start;
-  }
-  .gen:last-child { margin-bottom: 0; }
-  .gen-dot {
-    grid-column: 2;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-  }
-  .gen-dot-inner {
-    width: 16px; height: 16px;
-    border-radius: 50%;
-    background: var(--cream);
-    border: 2px solid var(--saddle);
-    position: relative;
-    z-index: 2;
-  }
-  .gen-dot-inner.filled {
-    background: var(--rust);
-    border-color: var(--rust);
-  }
-  .gen-card {
-    background: var(--cream);
-    border: 1px solid rgba(31, 26, 21, 0.12);
-    padding: 28px 32px;
-    position: relative;
-    box-shadow: 0 1px 0 rgba(31, 26, 21, 0.15);
-  }
-  .gen:nth-child(odd) .gen-card { grid-column: 1; text-align: right; }
-  .gen:nth-child(even) .gen-card { grid-column: 3; }
-  .gen-year {
-    font-family: 'Fraunces', serif;
-    font-style: italic;
-    font-size: 14px;
-    color: var(--saddle);
-    margin-bottom: 6px;
-    letter-spacing: 0.05em;
-  }
-  .gen-name {
-    font-family: 'Fraunces', serif;
-    font-weight: 500;
-    font-size: 22px;
-    color: var(--walnut);
-    margin-bottom: 4px;
-    line-height: 1.2;
-  }
-  .gen-role {
-    font-size: 11px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 14px;
-  }
-  .gen-detail {
-    font-size: 14px;
-    line-height: 1.6;
-    color: var(--ink);
-  }
-  .gen-detail em { color: var(--rust); font-style: italic; }
-
-  /* CTA */
-  .cta {
-    padding: 120px 0;
-    text-align: center;
-    background:
-      radial-gradient(ellipse at center, rgba(164, 71, 47, 0.05), transparent 70%);
-  }
-  .cta h2 {
-    font-family: 'Fraunces', serif;
-    font-weight: 300;
-    font-size: clamp(44px, 6vw, 88px);
-    line-height: 0.98;
-    letter-spacing: -0.02em;
-    color: var(--walnut);
-    margin-bottom: 28px;
-  }
-  .cta h2 em { font-style: italic; color: var(--rust); }
-  .cta p {
-    max-width: 560px;
-    margin: 0 auto 40px;
-    color: var(--ink);
-    font-size: 17px;
-    line-height: 1.6;
-  }
-  .cta-buttons {
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 16px 32px;
-    font-size: 13px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    font-weight: 500;
-    text-decoration: none;
-    border: 1px solid var(--walnut);
-    transition: all 0.25s;
-    cursor: pointer;
-    background: transparent;
-    color: var(--walnut);
-    font-family: 'Inter', sans-serif;
-  }
-  .btn:hover { background: var(--walnut); color: var(--cream); }
-  .btn.primary { background: var(--walnut); color: var(--cream); }
-  .btn.primary:hover { background: var(--rust); border-color: var(--rust); }
-
-  /* FOOTER */
-  footer {
-    padding: 60px 40px 40px;
-    border-top: 1px solid rgba(31, 26, 21, 0.15);
-    background: var(--paper-warm);
-  }
-  .foot-grid {
-    max-width: 1400px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 40px;
-    align-items: start;
-  }
-  .foot-brand { font-family: 'Fraunces', serif; font-size: 22px; margin-bottom: 10px; color: var(--walnut); }
-  .foot-brand em { font-style: italic; color: var(--saddle); }
-  .foot-tag { font-size: 13px; color: var(--muted); max-width: 280px; line-height: 1.55; }
-  .foot-col h5 {
-    font-size: 11px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--saddle);
-    margin-bottom: 16px;
-    font-weight: 500;
-  }
-  .foot-col a, .foot-col span {
-    display: block;
-    color: var(--ink);
-    text-decoration: none;
-    font-size: 14px;
-    margin-bottom: 8px;
-    transition: color 0.2s;
-  }
-  .foot-col a:hover { color: var(--rust); }
-  .foot-bottom {
-    max-width: 1400px;
-    margin: 48px auto 0;
-    padding-top: 24px;
-    border-top: 1px solid rgba(31, 26, 21, 0.1);
-    display: flex;
-    justify-content: space-between;
-    font-size: 12px;
-    color: var(--muted);
-    flex-wrap: wrap;
-    gap: 12px;
-  }
-
-  /* RESPONSIVE */
-  @media (max-width: 960px) {
-    .topbar { padding: 14px 20px; }
-    .brand-logo { height: 44px; }
-    nav ul { gap: 18px; }
-    nav a { font-size: 11px; letter-spacing: 0.08em; }
-    .hero { padding: 50px 20px 60px; }
-    .hero-grid { grid-template-columns: 1fr; gap: 40px; }
-    .hero-visual { max-width: 360px; justify-self: start; }
-    .container { padding: 0 20px; }
-    .story { padding: 60px 0; }
-    .story-grid { grid-template-columns: 1fr; gap: 40px; }
-    .three-hats { grid-template-columns: 1fr; }
-    .mission { padding: 70px 0; }
-    .mission-pillars { grid-template-columns: 1fr; gap: 24px; margin-top: 40px; }
-    .piece-grid { grid-template-columns: repeat(2, 1fr); gap: 28px 16px; }
-    .available { padding: 60px 0; }
-    .process { padding: 60px 0; }
-    .steps { grid-template-columns: 1fr 1fr; gap: 24px; }
-    .horses { padding: 60px 0; }
-    .horses-grid { grid-template-columns: 1fr; gap: 40px; }
-    .heritage { padding: 70px 0; }
-    .timeline::before { left: 20px; }
-    .gen { grid-template-columns: 40px 1fr; gap: 16px; margin-bottom: 30px; }
-    .gen-dot { grid-column: 1; padding-top: 14px; justify-content: flex-start; }
-    .gen:nth-child(odd) .gen-card, .gen:nth-child(even) .gen-card { grid-column: 2; text-align: left; }
-    .cta { padding: 80px 0; }
-    .foot-grid { grid-template-columns: 1fr 1fr; }
-  }
-  @media (max-width: 520px) {
-    .piece-grid { grid-template-columns: 1fr; }
-    .steps { grid-template-columns: 1fr; }
-    .foot-grid { grid-template-columns: 1fr; }
-    nav ul { gap: 12px; }
-    .wood-stamp { width: 100px; height: 100px; }
-    .wood-stamp span { font-size: 12px; }
-  }
-
-  .reveal {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
-  }
-  .reveal.in { opacity: 1; transform: translateY(0); }
-</style>
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
 <header class="topbar">
-  <a class="brand-mark" href="#top">
-  <!-- <span class="brand-text">Taaffe <span>Vintage</span></span> -->
-  <img class="brand-logo" src="logo.png" alt="Taaffe Vintage" />
-</a>
+  <a class="brand-mark" href="index.html">
+    <span class="brand-text">Taaffe <span>Vintage</span></span>
+    <!-- <img class="brand-logo" src="logo.png" alt="Taaffe Vintage" /> -->
+  </a>
   <nav>
     <ul>
       <li><a href="#story">Story</a></li>
-      <li><a href="#available">Available</a></li>
+      <li><a href="available.html">Available</a></li>
       <li><a href="#process">Process</a></li>
       <li><a href="#horses">The Herd</a></li>
       <li><a href="#heritage">Heritage</a></li>
@@ -976,42 +40,37 @@
         Every piece you see here was found, hauled home, and refinished by hand — one person, one garage, one sander at a time. No outsourced restorations. No flipped-and-shipped. Just honest pieces brought back from the edge.
       </p>
       <div class="hero-meta">
-        <div>
-          <span class="num">100%</span>
-          <span class="lab">Hand refinished</span>
-        </div>
-        <div>
-          <span class="num">1&ndash;of&ndash;1</span>
-          <span class="lab">Every piece</span>
-        </div>
-        <div>
-          <span class="num">DM</span>
-          <span class="lab">To purchase</span>
-        </div>
+        <div><span class="num">100%</span><span class="lab">Hand refinished</span></div>
+        <div><span class="num">1&ndash;of&ndash;1</span><span class="lab">Every piece</span></div>
+        <div><span class="num">DM</span><span class="lab">To purchase</span></div>
       </div>
     </div>
 
     <div class="hero-visual">
       <div class="wood-panels">
-        <!-- PANEL 1 — ROSEWOOD. Replace placeholder with: <img src="rosewood.jpg" alt="Rosewood grain"/> -->
         <div class="wood-panel">
-          <img src="rosewood.jpg" alt="Rosewood grain"/>
+          <!-- Replace placeholder with: <img src="rosewood.jpg" alt="Rosewood grain"/> -->
+          <div class="panel-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9 L21 9 M3 14 L21 14"/></svg>
+            <p>Rosewood</p>
+          </div>
           <div class="panel-label">Rosewood</div>
         </div>
-
-        <!-- PANEL 2 — TEAK. Replace placeholder with: <img src="teak.jpg" alt="Teak grain"/> -->
         <div class="wood-panel">
-          <img src="teak.jpg" alt="Teak grain"/>
+          <div class="panel-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9 L21 9 M3 14 L21 14"/></svg>
+            <p>Teak</p>
+          </div>
           <div class="panel-label">Teak</div>
         </div>
-
-        <!-- PANEL 3 — WALNUT. Replace placeholder with: <img src="walnut.jpg" alt="Walnut grain"/> -->
         <div class="wood-panel">
-          <img src="walnut.jpg" alt="Walnut grain"/>
+          <div class="panel-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9 L21 9 M3 14 L21 14"/></svg>
+            <p>Walnut</p>
+          </div>
           <div class="panel-label">Walnut</div>
         </div>
       </div>
-
       <div class="wood-stamp">
         <span>Rescued<br/><em>&amp; restored</em><br/>by hand</span>
       </div>
@@ -1030,34 +89,23 @@
         <p>I couldn't afford that. So I bought sandpaper instead.</p>
         <p class="note">— that dresser is still in my house.</p>
       </div>
-
       <div class="story-copy reveal">
         <h2>I'm an engineer who <em>can't stop rescuing things.</em></h2>
         <p>By day I'm a mechanical engineer for a geothermal company. Nights and weekends, I'm in the garage or out at the barn. Taaffe Vintage is what happened when I realized I couldn't keep every piece I refinished — the house, thankfully, has limits.</p>
         <p>What it doesn't have limits on is the standard of the work. Every joint gets checked. Every drawer glides. Every finish is chosen for the piece, not the trend. The pieces other people give up on are usually the ones most worth saving — and that's the whole thing, really.</p>
-
         <div class="three-hats">
           <div class="hat">
-            <svg class="hat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
-              <circle cx="12" cy="12" r="3"/>
-              <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09a1.65 1.65 0 00-1-1.51 1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09a1.65 1.65 0 001.51-1 1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33h0a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51h0a1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82v0a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/>
-            </svg>
+            <svg class="hat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09a1.65 1.65 0 00-1-1.51 1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09a1.65 1.65 0 001.51-1 1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33h0a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51h0a1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82v0a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
             <h4>The engineer</h4>
             <div class="hat-tags">Precision &middot; Tolerance &middot; Joinery</div>
           </div>
           <div class="hat">
-            <svg class="hat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
-              <path d="M9.06 11.9l8.07-8.06a2.85 2.85 0 114.03 4.03l-8.06 8.08"/>
-              <path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 00-3-3.02z"/>
-            </svg>
+            <svg class="hat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9.06 11.9l8.07-8.06a2.85 2.85 0 114.03 4.03l-8.06 8.08"/><path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 00-3-3.02z"/></svg>
             <h4>The refinisher</h4>
             <div class="hat-tags">Patience &middot; Grain &middot; Honest Work</div>
           </div>
           <div class="hat">
-            <svg class="hat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
-              <path d="M15 3l3 2-1 3 2 2v4a6 6 0 01-6 6h-2a6 6 0 01-6-6v-1l-1-1 1-3 3-2 2 1h3l2-5z"/>
-              <circle cx="16" cy="8" r="0.5" fill="currentColor"/>
-            </svg>
+            <svg class="hat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 3l3 2-1 3 2 2v4a6 6 0 01-6 6h-2a6 6 0 01-6-6v-1l-1-1 1-3 3-2 2 1h3l2-5z"/><circle cx="16" cy="8" r="0.5" fill="currentColor"/></svg>
             <h4>The rescuer</h4>
             <div class="hat-tags">Second Chances &middot; Good Bones</div>
           </div>
@@ -1076,31 +124,25 @@
       <p>Fast furniture has trained a generation to throw out something broken and buy something cheap to replace it. An oak dresser from 1962 that needs two hours of sanding and a new set of drawer slides becomes garbage — while a particleboard replacement gets shipped in from overseas.</p>
       <p>Most pieces are worth saving. That's the whole thing. I work on what other people have given up on, because the math on that keeps getting more obvious: old furniture is built better, lasts longer, and doesn't need to be replaced every five years. The only thing missing is someone with the time and the sandpaper.</p>
       <div class="mission-pillars">
-        <div class="pillar">
-          <h4>Keep it out of the landfill</h4>
-          <p>Every piece refinished is a piece not replaced. That's the quiet math behind the whole shop.</p>
-        </div>
-        <div class="pillar">
-          <h4>Slower than fast furniture</h4>
-          <p>Hand sanding takes a weekend. Shipping from overseas takes an hour. We chose the wrong one as a culture.</p>
-        </div>
-        <div class="pillar">
-          <h4>Every sale supports the herd</h4>
-          <p>A portion of each sale goes to feed, farrier, and vet care for the rescue horses. The work and the herd are one thing.</p>
-        </div>
+        <div class="pillar"><h4>Keep it out of the landfill</h4><p>Every piece refinished is a piece not replaced. That's the quiet math behind the whole shop.</p></div>
+        <div class="pillar"><h4>Slower than fast furniture</h4><p>Hand sanding takes a weekend. Shipping from overseas takes an hour. We chose the wrong one as a culture.</p></div>
+        <div class="pillar"><h4>Every sale supports the herd</h4><p>A portion of each sale goes to feed, farrier, and vet care for the rescue horses. The work and the herd are one thing.</p></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- AVAILABLE -->
+<!-- AVAILABLE — homepage teaser of 6 featured pieces -->
 <section class="available" id="available">
   <div class="container">
     <div class="section-head">
-      <h2>Currently <em>available</em></h2>
-      <p>Tap any piece to see the full Instagram post — more photos, dimensions, and full description. To purchase, send a DM to <strong>@taaffevintage</strong>. Pieces are not held; first to pay claims the piece. Local Houston delivery available; shipping quoted by piece.</p>
+      <h2>Featured <em>pieces</em></h2>
+      <p>A few from the current inventory. Tap any piece to see the full Instagram post — more photos, dimensions, and full description. To purchase, send a DM to <strong>@taaffevintage</strong>. By purchasing, you agree to our <a href="#" class="policy-link" data-open-policy>policy</a>.</p>
     </div>
     <div class="piece-grid" id="pieceGrid"></div>
+    <div class="see-all-wrap">
+      <a href="available.html" class="btn">See all available pieces &nbsp;→</a>
+    </div>
   </div>
 </section>
 
@@ -1109,26 +151,10 @@
   <div class="container">
     <h2>From estate-sale find to <em>forever piece.</em></h2>
     <div class="steps">
-      <div class="step">
-        <span class="step-num">Step one</span>
-        <h3>Hunt</h3>
-        <p>Estate sales. Goodwill. Marketplace. I look for solid wood, dovetails, and good bones — not a name on the back.</p>
-      </div>
-      <div class="step">
-        <span class="step-num">Step two</span>
-        <h3>Assess</h3>
-        <p>Every drawer pulled, every joint checked, every veneer tested. What needs repair gets repaired.</p>
-      </div>
-      <div class="step">
-        <span class="step-num">Step three</span>
-        <h3>Refinish</h3>
-        <p>Strip. Sand. Repair. Stain or paint depending on the grain. Hardware cleaned or replaced to period-correct spec.</p>
-      </div>
-      <div class="step">
-        <span class="step-num">Step four</span>
-        <h3>Rehome</h3>
-        <p>Photographed in natural light, posted on Instagram, delivered by me in Houston — or shipped carefully beyond.</p>
-      </div>
+      <div class="step"><span class="step-num">Step one</span><h3>Hunt</h3><p>Estate sales. Goodwill. Marketplace. I look for solid wood, dovetails, and good bones — not a name on the back.</p></div>
+      <div class="step"><span class="step-num">Step two</span><h3>Assess</h3><p>Every drawer pulled, every joint checked, every veneer tested. What needs repair gets repaired.</p></div>
+      <div class="step"><span class="step-num">Step three</span><h3>Refinish</h3><p>Strip. Sand. Repair. Stain or paint depending on the grain. Hardware cleaned or replaced to period-correct spec.</p></div>
+      <div class="step"><span class="step-num">Step four</span><h3>Rehome</h3><p>Photographed in natural light, posted on Instagram, delivered by me in Houston — or shipped carefully beyond.</p></div>
     </div>
   </div>
 </section>
@@ -1138,6 +164,7 @@
   <div class="container">
     <div class="horses-grid">
       <div class="horses-visual reveal">
+        <!-- TO ADD A REAL HORSE PHOTO: replace this entire <svg> with: <img src="herd.jpg" alt="One of the rescue horses" style="width:100%;height:100%;object-fit:cover;"/> -->
         <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
           <line x1="40" y1="340" x2="360" y2="340" stroke="#3a2a1c" stroke-width="1"/>
           <g fill="#3a2a1c">
@@ -1147,10 +174,8 @@
             <path d="M306 108 L302 92 L310 98 Z"/>
             <path d="M280 125 Q275 140, 278 155 L268 152 Q263 138, 272 120 Z" opacity="0.7"/>
             <path d="M95 235 Q72 232, 62 250 Q58 268, 68 278 Q75 270, 80 258 Q85 248, 92 245 Z"/>
-            <rect x="155" y="255" width="8" height="82" rx="1"/>
-            <rect x="178" y="255" width="8" height="82" rx="1"/>
-            <rect x="218" y="250" width="8" height="87" rx="1"/>
-            <rect x="238" y="250" width="8" height="87" rx="1"/>
+            <rect x="155" y="255" width="8" height="82" rx="1"/><rect x="178" y="255" width="8" height="82" rx="1"/>
+            <rect x="218" y="250" width="8" height="87" rx="1"/><rect x="238" y="250" width="8" height="87" rx="1"/>
             <circle cx="318" cy="115" r="1.5" fill="#faf5ec"/>
           </g>
           <g stroke="#5a6b3e" stroke-width="1.5" fill="none">
@@ -1182,53 +207,41 @@
       <h2>It turns out this <em>runs in the family.</em></h2>
       <p>I didn't grow up being told I'd do this work. But the further I got into it, the more the family stories started to line up. It turns out refinishing furniture is something the Taaffes have been doing for a long time — I'm just the one doing it now.</p>
     </div>
-
     <div class="timeline">
       <div class="gen reveal">
         <div class="gen-card">
           <div class="gen-year">Early 1900s</div>
           <div class="gen-name">Great-Grandfather Taaffe</div>
           <div class="gen-role">Carpenter &middot; Swedish immigrant</div>
-          <div class="gen-detail">
-            Left Sweden with his wife for America, bringing the name <em>Taaffe</em> with them (later shortened to Taff to fit in). Trained as a carpenter, he laid the hardwood floors inside <em>John Wayne's house</em> — floors that are, as far as we know, still there.
-          </div>
+          <div class="gen-detail">Left Sweden with his wife for America, bringing the name <em>Taaffe</em> with them (later shortened to Taff to fit in). Trained as a carpenter, he laid the hardwood floors inside <em>John Wayne's house</em> — floors that are, as far as we know, still there.</div>
         </div>
         <div class="gen-dot"><div class="gen-dot-inner filled"></div></div>
       </div>
-
       <div class="gen reveal">
         <div class="gen-dot"><div class="gen-dot-inner"></div></div>
         <div class="gen-card">
           <div class="gen-year">Mid-century</div>
           <div class="gen-name">My grandmother &amp; her twin</div>
           <div class="gen-role">Second generation</div>
-          <div class="gen-detail">
-            My grandmother's twin sister refinished furniture exactly the way I do now — the same steps, the same patience, decades before I was born. The tools stayed in the family even when the trade went quiet.
-          </div>
+          <div class="gen-detail">My grandmother's twin sister refinished furniture exactly the way I do now — the same steps, the same patience, decades before I was born. The tools stayed in the family even when the trade went quiet.</div>
         </div>
       </div>
-
       <div class="gen reveal">
         <div class="gen-card">
           <div class="gen-year">My childhood</div>
           <div class="gen-name">My mother</div>
           <div class="gen-role">Third generation &middot; The curator</div>
-          <div class="gen-detail">
-            My mom thrifted pieces alongside my grandmother — a piece here, a different piece there, slowly curating a collection for her room. She painted instead of refinishing, but the eye was the same: spotting what was worth saving, knowing it would matter once it was hers.
-          </div>
+          <div class="gen-detail">My mom thrifted pieces alongside my grandmother — a piece here, a different piece there, slowly curating a collection for her room. She painted instead of refinishing, but the eye was the same: spotting what was worth saving, knowing it would matter once it was hers.</div>
         </div>
         <div class="gen-dot"><div class="gen-dot-inner"></div></div>
       </div>
-
       <div class="gen reveal">
         <div class="gen-dot"><div class="gen-dot-inner filled"></div></div>
         <div class="gen-card">
           <div class="gen-year">Today</div>
           <div class="gen-name">Brianna Byrd</div>
           <div class="gen-role">Fourth generation &middot; Founder</div>
-          <div class="gen-detail">
-            I picked up a piece of sandpaper because I couldn't afford a quote, not because I knew the history. Turns out I was following it anyway. I chose <em>Taaffe</em> — the original Swedish spelling — as a way of taking the name back to where it started.
-          </div>
+          <div class="gen-detail">I picked up a piece of sandpaper because I couldn't afford a quote, not because I knew the history. Turns out I was following it anyway. I chose <em>Taaffe</em> — the original Swedish spelling — as a way of taking the name back to where it started.</div>
         </div>
       </div>
     </div>
@@ -1239,16 +252,13 @@
 <section class="cta" id="contact">
   <div class="container">
     <h2>See something you love?<br/><em>Send a DM.</em></h2>
-    <p>Taaffe Vintage lives primarily on Instagram. That's where new pieces drop, prices are listed, and sales happen. Pieces are not held — payment claims the piece.</p>
+    <p>Taaffe Vintage lives primarily on Instagram. That's where new pieces drop, prices are listed, and sales happen. By purchasing, you agree to our <a href="#" class="policy-link" data-open-policy>policy</a>.</p>
     <div class="cta-buttons">
       <a href="https://www.instagram.com/taaffevintage/" class="btn primary" target="_blank" rel="noopener">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <rect x="2" y="2" width="20" height="20" rx="5"/>
-          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01"/>
-        </svg>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01"/></svg>
         @taaffevintage
       </a>
-      <a href="#available" class="btn">Browse the shop</a>
+      <a href="available.html" class="btn">Browse the shop</a>
     </div>
   </div>
 </section>
@@ -1261,7 +271,7 @@
     </div>
     <div class="foot-col">
       <h5>Shop</h5>
-      <a href="#available">Available</a>
+      <a href="available.html">Available</a>
       <a href="https://www.instagram.com/taaffevintage/" target="_blank" rel="noopener">Sold archive (IG)</a>
       <a href="https://www.instagram.com/taaffevintage/" target="_blank" rel="noopener">Price drops (IG)</a>
     </div>
@@ -1275,7 +285,7 @@
     <div class="foot-col">
       <h5>Connect</h5>
       <a href="https://www.instagram.com/taaffevintage/" target="_blank" rel="noopener">Instagram</a>
-      <a href="#">Chairish</a>
+      <a href="#" class="policy-link" data-open-policy>Policy</a>
       <span>Houston, TX</span>
     </div>
   </div>
@@ -1285,101 +295,44 @@
   </div>
 </footer>
 
-<script>
-  // ============================================================
-  //  PIECES — your inventory.
-  //  To add/edit a piece:
-  //    - name: the title shown
-  //    - era: the small uppercase line below it
-  //    - price: e.g. "$685" or "Not for sale"
-  //    - status: "available" | "sold" | "drop" | "kept"
-  //    - oldPrice: only used when status is "drop"
-  //    - instagramUrl: the full URL to the IG post
-  //    - image: filename of a real photo you uploaded to GitHub,
-  //        OR leave blank ("") to show a placeholder illustration
-  //    - palette + shape: only used when image is blank.
-  // ============================================================
-  const pieces = [
-    { name: "Walnut Tallboy", era: "1960s · Mid-Century", price: "$685", status: "available", instagramUrl: "https://www.instagram.com/taaffevintage/", image: "", palette: ["#6a4228", "#8a5a3b", "#b88a5a"], shape: "tallboy" },
-    { name: "The Goodwill Dresser", era: "1940s · Refinished 2024", price: "Not for sale", status: "kept", instagramUrl: "", image: "", palette: ["#3d2414", "#5a3420", "#7a4a2a"], shape: "dresser" },
-    { name: "Oak Secretary Desk", era: "1950s · Hand sanded", price: "$540", oldPrice: "$625", status: "drop", instagramUrl: "https://www.instagram.com/taaffevintage/", image: "", palette: ["#8a6a48", "#a67a4a", "#c89a6a"], shape: "desk" },
-    { name: "Danish Credenza", era: "1970s · Teak", price: "$1,240", status: "available", instagramUrl: "https://www.instagram.com/taaffevintage/", image: "", palette: ["#5a3420", "#7a4a2a", "#9a6a3a"], shape: "credenza" },
-    { name: "Cane-Back Rocker", era: "1960s · Reglued & recaned", price: "$380", status: "sold", instagramUrl: "https://www.instagram.com/taaffevintage/", image: "", palette: ["#6a4228", "#8a5a3b"], shape: "chair" },
-    { name: "Brass-Pull Nightstand Pair", era: "1970s · Set of 2", price: "$520", status: "available", instagramUrl: "https://www.instagram.com/taaffevintage/", image: "", palette: ["#3d2414", "#6a4228"], shape: "nightstand" },
-    { name: "French Provincial Vanity", era: "1950s · Painted in bone", price: "$410", status: "sold", instagramUrl: "https://www.instagram.com/taaffevintage/", image: "", palette: ["#e8dcc4", "#c4a884", "#8a7258"], shape: "vanity" },
-    { name: "Solid Pine Farmhouse Table", era: "1980s · Restained", price: "$720", status: "available", instagramUrl: "https://www.instagram.com/taaffevintage/", image: "", palette: ["#a67a4a", "#7a5530"], shape: "table" },
-    { name: "Wingback Side Chair", era: "1960s · Reupholstered", price: "$295", oldPrice: "$345", status: "drop", instagramUrl: "https://www.instagram.com/taaffevintage/", image: "", palette: ["#5a3420", "#7a4a2a", "#a4472f"], shape: "wingback" }
-  ];
+<!-- POLICY MODAL -->
+<div class="policy-modal" id="policyModal" aria-hidden="true">
+  <div class="policy-backdrop" data-close-policy></div>
+  <div class="policy-panel" role="dialog" aria-labelledby="policyTitle">
+    <button class="policy-close" data-close-policy aria-label="Close policy">&times;</button>
+    <div class="policy-content">
+      <div class="eyebrow" style="justify-content: center; margin-bottom: 14px;">For your records</div>
+      <h2 id="policyTitle">Our <em>policy</em></h2>
 
-  function renderShape(shape, palette) {
-    const bg = '#F7F7F2';
-    const [c1, c2 = c1, c3 = c2] = palette;
-    const shapes = {
-      tallboy: `<rect x="90" y="40" width="220" height="360" fill="${c1}"/><rect x="90" y="40" width="220" height="360" fill="url(#pg1)"/><g stroke="${bg}" stroke-width="1" fill="none" opacity="0.6"><line x1="90" y1="110" x2="310" y2="110"/><line x1="90" y1="180" x2="310" y2="180"/><line x1="90" y1="250" x2="310" y2="250"/><line x1="90" y1="320" x2="310" y2="320"/></g><g fill="${c3}"><circle cx="200" cy="75" r="3"/><circle cx="200" cy="145" r="3"/><circle cx="200" cy="215" r="3"/><circle cx="200" cy="285" r="3"/><circle cx="200" cy="360" r="3"/></g><rect x="80" y="395" width="240" height="8" fill="${c2}"/><rect x="85" y="400" width="10" height="20" fill="${c1}"/><rect x="305" y="400" width="10" height="20" fill="${c1}"/>`,
-      dresser: `<rect x="60" y="120" width="280" height="240" fill="${c1}"/><rect x="60" y="120" width="280" height="240" fill="url(#pg1)"/><g stroke="${bg}" stroke-width="1" fill="none" opacity="0.5"><line x1="60" y1="200" x2="340" y2="200"/><line x1="60" y1="280" x2="340" y2="280"/><line x1="200" y1="120" x2="200" y2="200"/><line x1="200" y1="280" x2="200" y2="360"/></g><g fill="${c3}"><rect x="130" y="155" width="16" height="4"/><rect x="254" y="155" width="16" height="4"/><rect x="192" y="235" width="16" height="4"/><rect x="130" y="315" width="16" height="4"/><rect x="254" y="315" width="16" height="4"/></g><rect x="60" y="360" width="10" height="30" fill="${c1}"/><rect x="330" y="360" width="10" height="30" fill="${c1}"/>`,
-      desk: `<rect x="50" y="140" width="300" height="30" fill="${c1}"/><rect x="70" y="170" width="260" height="180" fill="${c2}"/><rect x="70" y="170" width="260" height="180" fill="url(#pg1)"/><rect x="85" y="190" width="110" height="70" fill="${c1}" opacity="0.7"/><rect x="205" y="190" width="110" height="70" fill="${c1}" opacity="0.7"/><rect x="85" y="275" width="230" height="60" fill="${c1}" opacity="0.7"/><g fill="${c3}"><circle cx="140" cy="225" r="2"/><circle cx="260" cy="225" r="2"/><rect x="195" y="303" width="10" height="3"/></g><rect x="60" y="350" width="8" height="40" fill="${c1}"/><rect x="332" y="350" width="8" height="40" fill="${c1}"/>`,
-      credenza: `<rect x="40" y="160" width="320" height="180" fill="${c1}"/><rect x="40" y="160" width="320" height="180" fill="url(#pg1)"/><g stroke="${bg}" stroke-width="1" fill="none" opacity="0.5"><line x1="140" y1="160" x2="140" y2="340"/><line x1="260" y1="160" x2="260" y2="340"/></g><g fill="${c3}" opacity="0.8"><rect x="85" y="245" width="10" height="3"/><rect x="195" y="245" width="10" height="3"/><rect x="305" y="245" width="10" height="3"/></g><line x1="50" y1="340" x2="60" y2="380" stroke="${c2}" stroke-width="4"/><line x1="340" y1="340" x2="350" y2="380" stroke="${c2}" stroke-width="4"/>`,
-      chair: `<path d="M130 120 Q130 80, 170 80 L230 80 Q270 80, 270 120 L270 240 L130 240 Z" fill="${c1}"/><path d="M130 120 Q130 80, 170 80 L230 80 Q270 80, 270 120 L270 240 L130 240 Z" fill="url(#pg1)"/><g stroke="${bg}" stroke-width="0.8" fill="none" opacity="0.5"><line x1="155" y1="100" x2="155" y2="230"/><line x1="180" y1="90" x2="180" y2="230"/><line x1="200" y1="85" x2="200" y2="230"/><line x1="220" y1="90" x2="220" y2="230"/><line x1="245" y1="100" x2="245" y2="230"/><line x1="130" y1="140" x2="270" y2="140"/><line x1="130" y1="180" x2="270" y2="180"/></g><rect x="120" y="240" width="160" height="18" fill="${c2}"/><g fill="${c1}"><rect x="125" y="258" width="10" height="120"/><rect x="265" y="258" width="10" height="120"/><rect x="195" y="258" width="10" height="100"/></g><path d="M120 258 Q100 300, 130 380" stroke="${c2}" stroke-width="6" fill="none"/><path d="M280 258 Q300 300, 270 380" stroke="${c2}" stroke-width="6" fill="none"/>`,
-      nightstand: `<rect x="50" y="180" width="140" height="180" fill="${c1}"/><rect x="50" y="180" width="140" height="180" fill="url(#pg1)"/><rect x="210" y="180" width="140" height="180" fill="${c1}"/><rect x="210" y="180" width="140" height="180" fill="url(#pg1)"/><g stroke="${bg}" stroke-width="0.8" fill="none" opacity="0.5"><line x1="50" y1="250" x2="190" y2="250"/><line x1="210" y1="250" x2="350" y2="250"/></g><g fill="${c2}"><rect x="112" y="215" width="16" height="3"/><rect x="112" y="300" width="16" height="3"/><rect x="272" y="215" width="16" height="3"/><rect x="272" y="300" width="16" height="3"/></g><rect x="55" y="360" width="6" height="20" fill="${c1}"/><rect x="179" y="360" width="6" height="20" fill="${c1}"/><rect x="215" y="360" width="6" height="20" fill="${c1}"/><rect x="339" y="360" width="6" height="20" fill="${c1}"/>`,
-      vanity: `<ellipse cx="200" cy="110" rx="70" ry="90" fill="${c1}" opacity="0.4"/><ellipse cx="200" cy="110" rx="62" ry="82" fill="${bg}"/><rect x="100" y="200" width="200" height="130" fill="${c1}"/><rect x="100" y="200" width="200" height="130" fill="url(#pg1)"/><g stroke="${bg}" stroke-width="0.8" fill="none" opacity="0.6"><line x1="100" y1="245" x2="300" y2="245"/><line x1="200" y1="245" x2="200" y2="330"/></g><g fill="${c3}"><circle cx="150" cy="225" r="2"/><circle cx="250" cy="225" r="2"/><circle cx="150" cy="285" r="2"/><circle cx="250" cy="285" r="2"/></g><path d="M110 330 Q105 360, 115 385" stroke="${c2}" stroke-width="5" fill="none"/><path d="M290 330 Q295 360, 285 385" stroke="${c2}" stroke-width="5" fill="none"/>`,
-      table: `<rect x="40" y="180" width="320" height="25" fill="${c1}"/><rect x="40" y="180" width="320" height="25" fill="url(#pg1)"/><rect x="70" y="205" width="8" height="175" fill="${c2}"/><rect x="322" y="205" width="8" height="175" fill="${c2}"/><rect x="60" y="375" width="28" height="10" fill="${c2}"/><rect x="312" y="375" width="28" height="10" fill="${c2}"/><line x1="78" y1="250" x2="322" y2="250" stroke="${c2}" stroke-width="3"/>`,
-      wingback: `<path d="M120 90 Q120 60, 150 60 L160 60 Q170 60, 170 80 L170 260 L120 260 Z" fill="${c1}"/><path d="M280 90 Q280 60, 250 60 L240 60 Q230 60, 230 80 L230 260 L280 260 Z" fill="${c1}"/><rect x="140" y="80" width="120" height="200" fill="${c2}"/><rect x="140" y="80" width="120" height="200" fill="url(#pg1)"/><path d="M115 280 L285 280 L295 320 L105 320 Z" fill="${c1}"/><g fill="${c3}" opacity="0.7"><circle cx="170" cy="150" r="2"/><circle cx="200" cy="150" r="2"/><circle cx="230" cy="150" r="2"/><circle cx="170" cy="210" r="2"/><circle cx="200" cy="210" r="2"/><circle cx="230" cy="210" r="2"/></g><rect x="120" y="320" width="10" height="50" fill="#2a1810"/><rect x="270" y="320" width="10" height="50" fill="#2a1810"/>`
-    };
-    return `<svg viewBox="0 0 400 440" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><rect width="400" height="440" fill="${bg}"/><defs><pattern id="pg1" width="4" height="40" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="40" stroke="${c3}" stroke-opacity="0.3" stroke-width="0.7"/><line x1="2" y1="0" x2="2" y2="40" stroke="${bg}" stroke-opacity="0.15" stroke-width="0.4"/></pattern></defs>${shapes[shape] || ''}<ellipse cx="200" cy="410" rx="150" ry="6" fill="${c1}" opacity="0.15"/></svg>`;
-  }
-
-  const grid = document.getElementById('pieceGrid');
-  const igOverlay = `<div class="piece-overlay"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01"/></svg>View on Instagram</span></div>`;
-
-  pieces.forEach((p, i) => {
-    const hasLink = p.instagramUrl && p.instagramUrl.length > 0 && p.status !== 'kept';
-    const tagName = hasLink ? 'a' : 'div';
-
-    const card = document.createElement(tagName);
-    card.className = 'piece reveal' + (p.status === 'sold' ? ' is-sold' : '') + (hasLink ? '' : ' no-link');
-    if (hasLink) {
-      card.setAttribute('href', p.instagramUrl);
-      card.setAttribute('target', '_blank');
-      card.setAttribute('rel', 'noopener');
-    }
-    card.style.transitionDelay = `${i * 60}ms`;
-
-    let tagHtml = '';
-    if (p.status === 'sold') tagHtml = '<span class="piece-tag sold">Sold</span>';
-    else if (p.status === 'drop') tagHtml = '<span class="piece-tag drop">Price drop</span>';
-    else if (p.status === 'kept') tagHtml = '<span class="piece-tag">Not for sale</span>';
-    else tagHtml = '<span class="piece-tag">Available</span>';
-
-    const priceHtml = p.oldPrice
-      ? `<span style="color: var(--muted); text-decoration: line-through; font-size: 14px; margin-right: 6px;">${p.oldPrice}</span>${p.price}`
-      : p.price;
-
-    const imgHtml = p.image && p.image.length > 0
-      ? `<img src="${p.image}" alt="${p.name}" loading="lazy"/>`
-      : renderShape(p.shape, p.palette);
-
-    card.innerHTML = `
-      ${tagHtml}
-      <div class="piece-img">
-        ${imgHtml}
-        ${hasLink ? igOverlay : ''}
+      <div class="policy-section">
+        <h3>Sales &amp; Holds</h3>
+        <p>Thank you for following Taaffe Vintage. Every piece is vintage and sold as-is, with normal signs of wear and use that come with age — scratches, scuffs, stains, and chips can be present. Major damage is disclosed in the listing, but not every flaw is easily photographed. Please ask for additional photos or details before purchasing if you have any questions. <strong>All sales are final.</strong></p>
+        <p>Items are listed across multiple platforms (Instagram, Facebook Marketplace, and others) and sold first-come, first-served. <strong>Availability is not guaranteed until a deposit or full payment has been received.</strong></p>
+        <p>Pieces cannot be held without a non-refundable deposit of 50% of the purchase price. Once paid in full, items must be picked up or have delivery arranged within 30 days. Items not picked up within 30 days will be relisted, and deposits are not refunded.</p>
       </div>
-      <div class="piece-info">
-        <div>
-          <div class="piece-name">${p.name}</div>
-          <div class="piece-meta">${p.era}</div>
-        </div>
-        <div class="piece-price">${priceHtml}</div>
-      </div>
-    `;
-    grid.appendChild(card);
-  });
 
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
-  }, { threshold: 0.15 });
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-</script>
+      <div class="policy-section">
+        <h3>Delivery &amp; Pickup</h3>
+        <p>Pickup is available <strong>by appointment in Kingwood, TX</strong> (NE Houston area).</p>
+        <p>Local curbside delivery is available for an additional cost based on mileage. To arrange delivery, we'll first confirm the exact delivery address, agreed-upon date and time, and final delivery cost. After the delivery plan is confirmed, a 50% non-refundable deposit on the piece is required to lock in the schedule. The remaining balance is due upon delivery.</p>
+        <p>Confirming the exact address before quoting protects both of us — quotes are based on actual mileage, not approximate location.</p>
+        <p>If you arrange a third-party transport service (whether recommended by us or arranged by you), <strong>full payment for the piece is required before the item leaves our possession.</strong> The transporter is hired and paid directly by you. Any damage during pickup, transit, or drop-off is between you and the transporter. Taaffe Vintage assumes no liability for items once they leave our location with a third party.</p>
+      </div>
+
+      <div class="policy-section">
+        <h3>Payment</h3>
+        <p>We accept Apple Pay, Google Pay, Venmo, Zelle, PayPal, and Cash App. Standard "friends and family" or peer-to-peer transfers carry no fee on either side.</p>
+        <p>If you prefer a protected payment option (PayPal Goods &amp; Services, Venmo Goods &amp; Services, or any payment method that includes purchase protection), we ask that you cover the associated processing fee. This keeps pricing fair for buyers who pay with no-fee options.</p>
+      </div>
+
+      <p class="policy-thanks">Thank you for supporting our small business.</p>
+    </div>
+  </div>
+</div>
+
+<!-- DATA + LOGIC -->
+<script src="pieces.js"></script>
+<script src="site.js"></script>
 
 </body>
 </html>
