@@ -85,6 +85,16 @@ const pieces = [
     image: "madison-credenza.jpg"
   },
   {
+    name: "Vintage Mid Century Modern Walnut 3 Drawer Dresser in the Style of Stanley",
+    era: "1960s · Walnut",
+    category: "storage",
+    price: "$395",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "stanley-like-dresser.jpg"
+  },
+  {
     name: "Vintage Mid Century Asian Inspired 12 Drawer Hickory Dresser by Tung Si",
     era: "1950s · Hickory",
     category: "storage",
@@ -105,14 +115,56 @@ const pieces = [
     image: "tessellated-table.jpg"
   },
   {
-    name: "Vintage Glass Mirror and Lucite Vanity Tray",
-    era: "Postmodern · Lucite",
-    category: "lighting-decor",
-    price: "$25",
+    name: "Vintage Henredon Mahogany Clawfoot or Claw Foot Side/End Table",
+    era: "1970s · Mahogany",
+    category: "tables",
+    price: "$395",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "clawfoot-table.jpg"
+  },
+  {
+    name: "Set of Four Vintage 1950s Walnut and Linen Dining Chairs After Conant Ball",
+    era: "1960s · Walnut",
+    category: "seating",
+    price: "$975",
+    oldPrice: "$1200",
+    status: "drop",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/C_30-CUJ2W6/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+    image: "conantball-chairs.jpg"
+  },
+  {
+    name: "Custom-Made Modern Solid Walnut Wood L-Shaped Desk",
+    era: "2020s · Walnut",
+    category: "tables",
+    price: "$500",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "ldesk.jpg"
+  },
+  {
+    name: "Custom-Made Modern Solid Walnut Wood L-Shaped Desk",
+    era: "2020s · Walnut",
+    category: "tables",
+    price: "$500",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "ldesk.jpg"
+  },
+  {
+    name: "Vintage 1970’s Romeo Rega Style Chrome and Glass Etagere Shelf",
+    era: "1970s · Chrome",
+    category: "storage",
+    price: "$795",
+    oldPrice: "$950",
     status: "available",
     featured: true,
-    instagramUrl: "https://www.instagram.com/p/DW2CEWElH7n/?igsh=MXgyMDJodG84b2F6ag==",
-    image: "lucite-tray.jpg"
+    instagramUrl: "https://www.instagram.com/p/C769jQDJi_T/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+    image: "romeorega-etagere.jpg"
   },
   {
     name: "Adrian Pearsall for Craft Associates Mid-Century Modern Cube Plinth Planter",
@@ -186,5 +238,66 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DVRsYHQESQa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "lane-headboard.jpg"
+  },
+  {
+    name: "Mid 20th Century Modern Rosewood Extendable Dining Table",
+    era: "1960s · Rosewood",
+    category: "tables",
+    price: "$425",
+    oldPrice: "$475",
+    status: "drop",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "rosewood-table.jpg"
+  },
+  {
+    name: "Vintage Italian Dessert or Fruit Pedestal Stand Cream Ceramic Pottery",
+    era: "1980s · Ceramic",
+    category: "lighting-decor",
+    price: "$25",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "grape-bowl.jpg"
+  },
+  {
+    name: "Vintage Rustic Solid Reclaimed Wood Farmhouse Bookcase",
+    era: "Vintage · Solid Wood",
+    category: "storage",
+    price: "$1295",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "reclaimed-bookcase.jpg"
+  },
+  {
+    name: "Early 1900s 20th Century Depression Era Wooden Dining Table",
+    era: "1900s · Tiger Oak",
+    category: "tables",
+    price: "$1295",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "antique-dining-table.jpg"
+  },
+  {
+    name: "Vintage Tiffin Franciscan Pink Wisteria Stemware Glasses- 11 Pieces",
+    era: "1950s · Glass",
+    category: "lighting-decor",
+    price: "$295",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "tiffin-glasses.jpg"
+  },
+  {
+    name: "1980s Postmodern/Contemporary White Laminate Table",
+    era: "1980s · Laminate",
+    category: "tables",
+    price: "$150",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/ChAbAzurq7k/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+    image: "white-table.jpg"
   }
 ];
