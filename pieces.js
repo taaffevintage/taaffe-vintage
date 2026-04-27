@@ -112,7 +112,7 @@ const pieces = [
     status: "available",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DW2CEWElH7n/?igsh=MXgyMDJodG84b2F6ag==",
-    image: "Photoroom_20260427_002226.jpeg"
+    image: "lucite-tray.jpeg"
   },
   {
     name: "Adrian Pearsall for Craft Associates Mid-Century Modern Cube Plinth Planter",
@@ -164,7 +164,7 @@ const pieces = [
     status: "drop",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DV_ozETEXsP/?igsh=YjljajFpcmRnaWJw",
-    image: "sirmos-console.jpg"
+    image: "sirmos-table.jpg"
   },
   {
     name: "Pair of 1980s Danish Teak Side Tables by A.B.J.",
