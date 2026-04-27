@@ -165,7 +165,7 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DV_ozETEXsP/?igsh=YjljajFpcmRnaWJw",
     image: "sirmos-console",
-  }
+  },
   {
     name: "Pair of 1980s Danish Teak Side Tables by A.B.J.",
     era: "1980s · teak",
