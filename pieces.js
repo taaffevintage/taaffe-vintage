@@ -115,6 +115,17 @@ const pieces = [
     image: "tessellated-table.jpg"
   },
   {
+    name: "Vintage 1970s Robert Sonneman for Kovacs Mid Century Modern Brass Waterfall Table Lamp",
+    era: "1970s · Brass",
+    category: "lighting-decor",
+    price: "$450",
+    status: "sold",
+    soldDate: "2026-04-14",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DWmUS2ylOhQ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    image: "sonneman-lamp.jpg"
+  },
+  {
     name: "Vintage Henredon Mahogany Clawfoot or Claw Foot Side/End Table",
     era: "1970s · Mahogany",
     category: "tables",
@@ -123,6 +134,17 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage/",
     image: "clawfoot-table.jpg"
+  },
+  {
+    name: "Vintage Postmodern Plaster Zig Zag Table Lamp",
+    era: "1970s · White",
+    category: "lighting-decor",
+    price: "$175",
+    status: "sold",
+    soldDate: "2026-04-13",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DW7KcZ6lLim/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA===",
+    image: "zigzag-lamp.jpg"
   },
   {
     name: "Set of Four Vintage 1950s Walnut and Linen Dining Chairs After Conant Ball",
@@ -134,6 +156,16 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/C_30-CUJ2W6/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
     image: "conantball-chairs.jpg"
+  },
+  {
+    name: "\u201CNight at the Parlor\u201D Billiards Painting Print with Neon Lights",
+    era: "1980s · Painting",
+    category: "lighting-decor",
+    price: "$250",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DRF1zuvkmly/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    image: "parlor-painting.jpg"
   },
   {
     name: "Custom-Made Modern Solid Walnut Wood L-Shaped Desk",
@@ -279,6 +311,29 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage/",
     image: "tiffin-glasses.jpg"
+  },
+  {
+    name: "\u201CThe Loose Vine\u201D Street Signed Painting by Benedict",
+    era: "1980s · Painting",
+    category: "lighting-decor",
+    price: "$40",
+    oldPrice: "$95",
+    status: "drop",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/CwvFAuhJTWp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    image: "street-painting.jpg"
+  },
+  {
+    name: "1980s Post Modern Painting of a Dancer by Jacky",
+    era: "1980s · Painting",
+    category: "lighting-decor",
+    price: "$10",
+    oldPrice: "$150",
+    status: "sold",
+    soldDate: "2026-04-25",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/CwgeT-_p7Zz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    image: "dancer-painting.jpg"
   },
   {
     name: "1980s Postmodern/Contemporary White Laminate Table",
