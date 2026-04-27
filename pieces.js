@@ -112,7 +112,7 @@ const pieces = [
     status: "available",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DW2CEWElH7n/?igsh=MXgyMDJodG84b2F6ag==",
-    image: "lucite-tray.jpeg"
+    image: "lucite-tray.jpg"
   },
   {
     name: "Adrian Pearsall for Craft Associates Mid-Century Modern Cube Plinth Planter",
