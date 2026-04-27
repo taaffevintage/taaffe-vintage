@@ -146,16 +146,6 @@ const pieces = [
     image: "ldesk.jpg"
   },
   {
-    name: "Custom-Made Modern Solid Walnut Wood L-Shaped Desk",
-    era: "2020s · Walnut",
-    category: "tables",
-    price: "$500",
-    status: "available",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage/",
-    image: "ldesk.jpg"
-  },
-  {
     name: "Vintage 1970’s Romeo Rega Style Chrome and Glass Etagere Shelf",
     era: "1970s · Chrome",
     category: "storage",
