@@ -107,7 +107,7 @@ const pieces = [
   {
     name: "Vintage Glass Mirror and Lucite Vanity Tray",
     era: "Postmodern · Lucite",
-    category: "decor",
+    category: "lighting-decor",
     price: "$25",
     status: "available",
     featured: true,
@@ -117,22 +117,22 @@ const pieces = [
   {
     name: "Adrian Pearsall for Craft Associates Mid-Century Modern Cube Plinth Planter",
     era: "1960s · Walnut",
-    category: "decor",
+    category: "lighting-decor",
     price: "$375",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DWZp7p2FLF7/?igsh=MTJhbTVudjljZTN4OQ==",
-    image: "pearsall-planter",
+    image: "pearsall-planter.jpg",
   },
   {
     name: "Vintage 1980s Danish “Puzzle Piece” Sliding Credenza / Console",
-    era: "1980z · Teak",
+    era: "1980s · Teak",
     category: "storage",
     price: "$950",
     status: "available",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DWZWDZ3ERHK/?igsh=Z3lrc3NtdHJzaDAz",
-    image: "danish-puzzle.jpg
+    image: "danish-puzzle.jpg",
   },
   {
     name: "Vintage Danish Teak Tallboy Chifforobe or Tallboy Dresser",
@@ -149,7 +149,7 @@ const pieces = [
     era: "1970s · Oak",
     category: "tables",
     price: "$395",
-    old price: "$495",
+    oldPrice: "$495",
     status: "drop",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DWJqXE0jhh6/?igsh=dXM2YWxkZWsyYW55",
@@ -164,7 +164,7 @@ const pieces = [
     status: "drop",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DV_ozETEXsP/?igsh=YjljajFpcmRnaWJw",
-    image: "sirmos-console",
+    image: "sirmos-console.jpg",
   },
   {
     name: "Pair of 1980s Danish Teak Side Tables by A.B.J.",
