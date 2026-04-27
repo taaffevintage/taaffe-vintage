@@ -82,7 +82,7 @@ const pieces = [
     status: "drop",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DVrFUIuEUs1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "madison-credenza.jpg",
+    image: "madison-credenza.jpg"
   },
   {
     name: "Vintage Mid Century Asian Inspired 12 Drawer Hickory Dresser by Tung Si",
@@ -92,7 +92,7 @@ const pieces = [
     status: "available",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DXM0B8ZkUA3/?igsh=YzBmcjhqMTJzNGF0",
-    image: "tungsi-dresser.jpg",
+    image: "tungsi-dresser.jpg"
   },
   {
     name: "Vintage 1980s Tessellated Mactan Stone Coffee Table by Maitland-Smith",
@@ -102,7 +102,7 @@ const pieces = [
     status: "available",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DW1cdNODijV/?igsh=NmpzbzM5MjVkcjBp",
-    image: "tessellated-table.jpg",
+    image: "tessellated-table.jpg"
   },
   {
     name: "Vintage Glass Mirror and Lucite Vanity Tray",
@@ -112,7 +112,7 @@ const pieces = [
     status: "available",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DW2CEWElH7n/?igsh=MXgyMDJodG84b2F6ag==",
-    image: "lucite-tray.jpg",
+    image: "lucite-tray.jpg"
   },
   {
     name: "Adrian Pearsall for Craft Associates Mid-Century Modern Cube Plinth Planter",
@@ -122,17 +122,17 @@ const pieces = [
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DWZp7p2FLF7/?igsh=MTJhbTVudjljZTN4OQ==",
-    image: "pearsall-planter.jpg",
+    image: "pearsall-planter.jpg"
   },
   {
-    name: "Vintage 1980s Danish “Puzzle Piece” Sliding Credenza / Console",
+    name: "Vintage 1980s Danish \u201CPuzzle Piece\u201D Sliding Credenza / Console",
     era: "1980s · Teak",
     category: "storage",
     price: "$950",
     status: "available",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DWZWDZ3ERHK/?igsh=Z3lrc3NtdHJzaDAz",
-    image: "danish-puzzle.jpg",
+    image: "danish-puzzle.jpg"
   },
   {
     name: "Vintage Danish Teak Tallboy Chifforobe or Tallboy Dresser",
@@ -142,7 +142,7 @@ const pieces = [
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DWJ0OLhjnkE/?igsh=MTltamdiN3dsZWMzZA==",
-    image: "chifforobe.jpg",
+    image: "chifforobe.jpg"
   },
   {
     name: "Vintage Lane Staccato Brutalist Mid Century Oak Nightstand",
@@ -153,7 +153,7 @@ const pieces = [
     status: "drop",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DWJqXE0jhh6/?igsh=dXM2YWxkZWsyYW55",
-    image: "brutalist-table.jpg",
+    image: "brutalist-table.jpg"
   },
   {
     name: "Vintage Postmodern Sirmos Plaster Faux Rock Console Table",
@@ -164,16 +164,16 @@ const pieces = [
     status: "drop",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DV_ozETEXsP/?igsh=YjljajFpcmRnaWJw",
-    image: "sirmos-console.jpg",
+    image: "sirmos-console.jpg"
   },
   {
     name: "Pair of 1980s Danish Teak Side Tables by A.B.J.",
-    era: "1980s · teak",
+    era: "1980s · Teak",
     category: "tables",
     price: "$550",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DV1CHqMDro2/?igsh=MWl6cTZhNGpkanM5eQ==",
-    image: "teak-tables.jpg",
+    image: "teak-tables.jpg"
   }
 ];
