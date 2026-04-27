@@ -289,7 +289,7 @@ const pieces = [
     price: "$1295",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    instagramUrl: "https://www.instagram.com/p/DXpYalNm1el/?igsh=aHBjbndmM3o4enJu",
     image: "reclaimed-bookcase.jpg"
   },
   {
