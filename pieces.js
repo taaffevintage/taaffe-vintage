@@ -175,5 +175,16 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DV1CHqMDro2/?igsh=MWl6cTZhNGpkanM5eQ==",
     image: "teak-tables.jpg"
+  },
+  {
+    name: "Lane Staccato Brutalist Mid Century Walnut Queen Headboard",
+    era: "1970s · Walnut",
+    category: "storage",
+    price: "$595",
+    oldPrice: "$650",
+    status: "drop",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DVRsYHQESQa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    image: "lane-headboard.jpg"
   }
 ];
