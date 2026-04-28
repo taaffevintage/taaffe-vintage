@@ -85,6 +85,16 @@ const pieces = [
     image: "madison-credenza.jpg"
   },
   {
+    name: "Vintage 1970s Lane Staccato Brutalist Large Mirror",
+    era: "1970s · Oak",
+    category: "lighting-decor",
+    price: "$125",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "brutalist-mirror.jpg"
+  },
+  {
     name: "Vintage Mid Century Modern Walnut 3 Drawer Dresser in the Style of Stanley",
     era: "1960s · Walnut",
     category: "storage",
@@ -291,6 +301,16 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DXpYalNm1el/?igsh=aHBjbndmM3o4enJu",
     image: "reclaimed-bookcase.jpg"
+  },
+  {
+    name: "Vintage Brutalist Iron Floor Candelabra in the Style of Harry Bertoia",
+    era: "1960s · Iron",
+    category: "lighting-decor",
+    price: "$795",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/C5vuAy0AXEO/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+    image: "bertoia-decor.jpg"
   },
   {
     name: "Early 1900s 20th Century Depression Era Wooden Dining Table",
