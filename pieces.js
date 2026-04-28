@@ -110,7 +110,7 @@ const pieces = [
     category: "tables",
     price: "$425",
     status: "available",
-    featured: true,
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DW1cdNODijV/?igsh=NmpzbzM5MjVkcjBp",
     image: "tessellated-table.jpg"
   },
@@ -336,7 +336,17 @@ const pieces = [
     image: "dancer-painting.jpg"
   },
   {
-    name: "1980s Postmodern/Contemporary White Laminate Table",
+    name: "Vintage 3-Way Dual Lamp after Gerald Thurston",
+    era: "1960s · Metal",
+    category: "lighting-decor",
+    price: "$295",
+    status: "available",
+    featured: true,
+    instagramUrl: "https://www.instagram.com/p/CjWXo_Yr82q/?igsh=Y2hwbXlwdmd3bnZp",
+    image: "thurston-lamp.jpg"
+  },
+  {
+    name: "1980s Postmodern Contemporary White Laminate Table",
     era: "1980s · Laminate",
     category: "tables",
     price: "$150",
