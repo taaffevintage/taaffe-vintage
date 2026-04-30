@@ -98,7 +98,7 @@ const pieces = [
     name: "Vintage Mid Century Modern Walnut 3 Drawer Dresser in the Style of Stanley",
     era: "1960s · Walnut",
     category: "storage",
-    price: "$395",
+    price: "$375",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage/",
