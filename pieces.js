@@ -108,8 +108,9 @@ const pieces = [
     name: "Vintage Mid Century Asian Inspired 12 Drawer Hickory Dresser by Tung Si",
     era: "1950s · Hickory",
     category: "storage",
-    price: "$950",
-    status: "available",
+    price: "$750",
+    oldPrice: "$950",
+    status: "drop",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DXM0B8ZkUA3/?igsh=YzBmcjhqMTJzNGF0",
     image: "tungsi-dresser.jpg"
