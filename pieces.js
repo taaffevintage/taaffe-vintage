@@ -121,7 +121,7 @@ const pieces = [
     category: "tables",
     price: "$395",
     oldPrice: "$425",
-    status: "drop",
+    status: "sold",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DW1cdNODijV/?igsh=NmpzbzM5MjVkcjBp",
     image: "tessellated-table.jpg"
