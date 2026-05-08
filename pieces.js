@@ -79,8 +79,8 @@ const pieces = [
     category: "storage",
     price: "$850",
     oldPrice: "$1450",
-    status: "drop",
-    featured: true,
+    status: "sold",
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DVrFUIuEUs1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "madison-credenza.jpg"
   },
@@ -226,7 +226,7 @@ const pieces = [
     category: "storage",
     price: "$1500",
     status: "available",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/p/DWJ0OLhjnkE/?igsh=MTltamdiN3dsZWMzZA==",
     image: "chifforobe.jpg"
   },
