@@ -186,7 +186,8 @@ const pieces = [
     era: "2020s · Walnut",
     category: "tables",
     price: "$500",
-    status: "available",
+    soldDate: "2026-05-10",
+    status: "sold",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage/",
     image: "ldesk.jpg"
