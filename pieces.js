@@ -80,6 +80,7 @@ const pieces = [
     price: "$850",
     oldPrice: "$1450",
     status: "sold",
+    soldDate: "2026-05-05",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DVrFUIuEUs1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "madison-credenza.jpg"
@@ -100,7 +101,8 @@ const pieces = [
     category: "storage",
     price: "$350",
     oldPrice: "$375",
-    status: "drop",
+    status: "sold",
+    soldDate: "2026-05-11",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage/",
     image: "stanley-like-dresser.jpg"
