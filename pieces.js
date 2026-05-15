@@ -131,17 +131,6 @@ const pieces = [
     image: "tessellated-table.jpg"
   },
   {
-    name: "Vintage 1970s Robert Sonneman for Kovacs Mid Century Modern Brass Waterfall Table Lamp",
-    era: "1970s · Brass",
-    category: "lighting-decor",
-    price: "$450",
-    status: "sold",
-    soldDate: "2026-04-14",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DWmUS2ylOhQ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "sonneman-lamp.jpg"
-  },
-  {
     name: "Vintage Henredon Mahogany Clawfoot or Claw Foot Side/End Table",
     era: "1970s · Mahogany",
     category: "tables",
@@ -150,17 +139,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage/",
     image: "clawfoot-table.jpg"
-  },
-  {
-    name: "Vintage Postmodern Plaster Zig Zag Table Lamp",
-    era: "1970s · White",
-    category: "lighting-decor",
-    price: "$175",
-    status: "sold",
-    soldDate: "2026-04-13",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DW7KcZ6lLim/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA===",
-    image: "zigzag-lamp.jpg"
   },
   {
     name: "Set of Four Vintage 1950s Walnut and Linen Dining Chairs After Conant Ball",
@@ -287,7 +265,7 @@ const pieces = [
     oldPrice: "$475",
     status: "drop",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    instagramUrl: "https://www.instagram.com/p/DUtWLXskeW9/?igsh=MWZ2M2R6eTdzMG85",
     image: "rosewood-table.jpg"
   },
   {
