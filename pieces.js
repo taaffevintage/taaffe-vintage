@@ -220,8 +220,9 @@ const pieces = [
     category: "tables",
     price: "$350",
     oldPrice: "$495",
-    status: "drop",
-    featured: true,
+    status: "sold",
+    soldDate: "2026-05-15",
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DWJqXE0jhh6/?igsh=dXM2YWxkZWsyYW55",
     image: "brutalist-table.jpg"
   },
@@ -232,7 +233,7 @@ const pieces = [
     price: "$220",
     oldPrice: "$350",
     status: "drop",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/p/DV_ozETEXsP/?igsh=YjljajFpcmRnaWJw",
     image: "sirmos-table.jpg"
   },
