@@ -74,6 +74,15 @@
 
 const pieces = [
   {
+    name: "Vintage 5 Light Mushroom Arc Floor Lamp",
+    era: "1990s · Chrome",
+    price: "$195",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DYXzlKiG1cw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    image: "arcfloorlamp.jpg"
+  },
+  {
     name: "Vintage 1950s Walnut Credenza by Madison Furniture Company",
     era: "1950s · Mid-Century",
     category: "storage",
@@ -89,10 +98,10 @@ const pieces = [
     name: "Vintage 1970s Lane Staccato Brutalist Large Mirror",
     era: "1970s · Oak",
     category: "lighting-decor",
-    price: "$125",
+    price: "$95",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    instagramUrl: "https://www.instagram.com/p/DYYOYSlmxHq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "brutalist-mirror.jpg"
   },
   {
@@ -134,7 +143,7 @@ const pieces = [
     name: "Vintage Henredon Mahogany Clawfoot or Claw Foot Side/End Table",
     era: "1970s · Mahogany",
     category: "tables",
-    price: "$395",
+    price: "$350",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage/",
