@@ -14,15 +14,53 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
+
+<style>
+  /* Topbar nav — center it now that the brand-mark is gone */
+  .topbar {
+    justify-content: center;
+  }
+  .topbar nav {
+    width: auto;
+  }
+
+  /* Big brand banner — sits between topbar and page hero.
+     Padding is HALF of what's on the homepage for a more compact look. */
+  .brand-banner {
+    background: var(--paper, #F7F7F2);
+    padding: 30px 24px 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(138, 90, 59, 0.12);
+  }
+  .brand-banner a {
+    display: inline-block;
+    line-height: 0;
+  }
+  .brand-banner-logo {
+    width: 480px;
+    max-width: 85%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  /* Tablet */
+  @media (max-width: 900px) {
+    .brand-banner { padding: 25px 20px 16px; }
+    .brand-banner-logo { width: 380px; }
+  }
+  /* Phone */
+  @media (max-width: 600px) {
+    .brand-banner { padding: 20px 16px 12px; }
+    .brand-banner-logo { width: 280px; }
+  }
+</style>
 </head>
 <body>
 
 <header class="topbar">
-  <a class="brand-mark" href="index.html">
-    <img class="brand-logo" src="logo.png" alt="Taaffe Vintage" />
-  </a>
   <nav>
     <ul>
+      <li><a href="index.html">Home</a></li>
       <li><a href="index.html#story">Story</a></li>
       <li><a href="available.html" class="active">Available</a></li>
       <li><a href="index.html#process">Process</a></li>
@@ -32,6 +70,13 @@
     </ul>
   </nav>
 </header>
+
+<!-- BIG BRAND BANNER -->
+<section class="brand-banner">
+  <a href="index.html" aria-label="Taaffe Vintage home">
+    <img class="brand-banner-logo" src="logo.png" alt="Taaffe Vintage" />
+  </a>
+</section>
 
 <section class="page-hero">
   <div class="container">
