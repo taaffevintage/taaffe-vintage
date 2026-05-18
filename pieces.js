@@ -78,7 +78,8 @@ const pieces = [
     era: "1990s · Chrome",
     price: "$195",
     status: "available",
-    featured: false,
+    featured: sold,
+    soldDate: "2026-05-18",
     instagramUrl: "https://www.instagram.com/p/DYXzlKiG1cw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "arcfloorlamp.jpg"
   },
