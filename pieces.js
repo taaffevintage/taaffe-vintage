@@ -123,8 +123,9 @@ const pieces = [
     category: "storage",
     price: "$595",
     oldPrice: "$950",
-    status: "drop",
-    featured: true,
+    status: "sold",
+    soldDate: "2026-05-18",
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DXM0B8ZkUA3/?igsh=YzBmcjhqMTJzNGF0",
     image: "tungsi-dresser.jpg"
   },
@@ -157,7 +158,7 @@ const pieces = [
     price: "$975",
     oldPrice: "$1200",
     status: "drop",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/p/C_30-CUJ2W6/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
     image: "conantball-chairs.jpg"
   },
