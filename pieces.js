@@ -253,7 +253,8 @@ const pieces = [
     era: "1980s · Teak",
     category: "tables",
     price: "$550",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-05-19",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DV1CHqMDro2/?igsh=MWl6cTZhNGpkanM5eQ==",
     image: "teak-tables.jpg"
