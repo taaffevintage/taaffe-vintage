@@ -243,8 +243,9 @@ const pieces = [
     category: "tables",
     price: "$220",
     oldPrice: "$350",
-    status: "drop",
-    featured: true,
+    status: "sold",
+    soldDate: "2026-05-22",
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DV_ozETEXsP/?igsh=YjljajFpcmRnaWJw",
     image: "sirmos-table.jpg"
   },
@@ -266,7 +267,7 @@ const pieces = [
     price: "$495",
     oldPrice: "$650",
     status: "drop",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/p/DVRsYHQESQa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "lane-headboard.jpg"
   },
