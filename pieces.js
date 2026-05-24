@@ -86,7 +86,7 @@ const pieces = [
   {
     name: "Vintage 5 Light Mushroom Arc Floor Lamp",
     era: "1990s · Chrome",
-    category: "decor",
+    category: "lighting-decor",
     price: "$195",
     status: "sold",
     featured: false,
