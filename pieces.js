@@ -76,6 +76,7 @@ const pieces = [
   {
     name: "1950s Vintage Mid-Century Modern Cane Back Bench",
     era: "1950s · Plum Bench",
+    category: "seating",
     price: "$1500",
     status: "available",
     featured: false,
@@ -85,6 +86,7 @@ const pieces = [
   {
     name: "Vintage 5 Light Mushroom Arc Floor Lamp",
     era: "1990s · Chrome",
+    category: "decor",
     price: "$195",
     status: "sold",
     featured: false,
