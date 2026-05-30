@@ -74,6 +74,16 @@
 
 const pieces = [
   {
+    name: "1970s Benny Linden Solid Teak Dining Chairs with new Upholstery - Set of Four",
+    era: "1970s · Teak",
+    category: "seating",
+    price: "$895",
+    status: "available",
+    featured: true,
+    instagramUrl: "https://www.instagram.com/p/DY7Q1gam5qV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    image: "bennylinden.jpg"
+  },
+  {
     name: "1950s Vintage Mid-Century Modern Cane Back Bench",
     era: "1950s · Plum Bench",
     category: "seating",
@@ -159,7 +169,7 @@ const pieces = [
     price: "$350",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    instagramUrl: "https://www.instagram.com/p/DY7SgGIG9F5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "clawfoot-table.jpg"
   },
   {
