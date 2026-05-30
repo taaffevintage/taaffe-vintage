@@ -382,7 +382,7 @@ const pieces = [
     category: "lighting-decor",
     price: "$295",
     status: "available",
-    featured: true,
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/CjWXo_Yr82q/?igsh=Y2hwbXlwdmd3bnZp",
     image: "thurston-lamp.jpg"
   },
