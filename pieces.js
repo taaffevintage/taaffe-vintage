@@ -276,6 +276,16 @@ const pieces = [
     image: "romeorega-etagere.jpg"
   },
   {
+    name: "Vintage Glass Mirror and Lucite Vanity Tray",
+    era: "1970s · Glass",
+    category: "lighting-decor",
+    price: "$25",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DW2CEWElH7n/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+    image: "tray.jpg"
+  },
+  {
     name: "Adrian Pearsall for Craft Associates Mid-Century Modern Cube Plinth Planter",
     era: "1960s · Walnut",
     category: "lighting-decor",
@@ -404,6 +414,16 @@ const pieces = [
     image: "antique-dining-table.jpg"
   },
   {
+    name: "Set of 3 Vintage Ribbed Libbey Sundae Pedestal Glasses",
+    era: "1990s · Glass",
+    category: "lighting-decor",
+    price: "$15",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/C6eMgaKARwe/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+    image: "sundaeglasses.jpg"
+  },
+  {
     name: "Vintage Tiffin Franciscan Pink Wisteria Stemware Glasses- 11 Pieces",
     era: "1950s · Glass",
     category: "lighting-decor",
@@ -412,6 +432,16 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage/",
     image: "tiffin-glasses.jpg"
+  },
+  {
+    name: "Vintage Anchor Hocking Lido Milano Blue Sherbet/Dessert Crinkle Glasses ",
+    era: "1970s · Glass",
+    category: "lighting-decor",
+    price: "$45",
+    status: "available",
+    featured: false,
+    instagramUrl: "hhttps://www.instagram.com/p/C0Pwz25pt3J/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+    image: "blueglasses.jpg"
   },
   {
     name: "\u201CThe Loose Vine\u201D Street Signed Painting by Benedict",
@@ -425,16 +455,14 @@ const pieces = [
     image: "street-painting.jpg"
   },
   {
-    name: "1980s Post Modern Painting of a Dancer by Jacky",
-    era: "1980s · Painting",
+    name: "Anchor Hocking Amber Yellow Pinched Glass Chip and Dip Bowl Set",
+    era: "1970s · Glass",
     category: "lighting-decor",
-    price: "$10",
-    oldPrice: "$150",
-    status: "sold",
-    soldDate: "2026-04-25",
+    price: "$30",
+    status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/p/CwgeT-_p7Zz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "dancer-painting.jpg"
+    instagramUrl: "https://www.instagram.com/p/Cs_ciMDg5FG/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+    image: "chipdip.jpg"
   },
   {
     name: "Vintage 3-Way Dual Lamp after Gerald Thurston",
