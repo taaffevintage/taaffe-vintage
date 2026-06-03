@@ -74,6 +74,66 @@
 
 const pieces = [
   {
+    name: "Monte Design Group \u201CJoya\u201D Rocker Rocking Chair",
+    era: "2020s · Walnut",
+    category: "seating",
+    price: "$650",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "joya.jpg"
+  },
+  {
+    name: "Custom-Made Modern Solid Walnut Wood L-Shaped Desk",
+    era: "2020s · Walnut",
+    category: "tables",
+    price: "$450",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "leftdesk.jpg"
+  },
+  {
+    name: "Antique Forest Furniture Company Vanity and Mirror Set Circa 1940",
+    era: "1940s · Solid wood",
+    category: "storage",
+    price: "$150",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "vanity.jpg"
+  },
+  {
+    name: "Vintage MCM Tobago Style Brutalist Lighted China Cabinet",
+    era: "1970s · Project",
+    category: "storage",
+    price: "$325",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DZGCdj9G83_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    image: "tobago.jpg"
+  },
+  {
+    name: "Vintage Charlton Lounge Chair and Ottoman Set in the Style of Eames",
+    era: "1970s · Walnut",
+    category: "seating",
+    price: "$1450",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "charlton.jpg"
+  },
+  {
+    name: "1990s Verner Panton for Vitra Sculptural Molded Fiberglass Dining Chairs",
+    era: "1990s · Fiberglass",
+    category: "seating",
+    price: "$2450",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "vernerpanton.jpg"
+  },
+  {
     name: "1970s Benny Linden Solid Teak Dining Chairs with new Upholstery - Set of Four",
     era: "1970s · Teak",
     category: "seating",
