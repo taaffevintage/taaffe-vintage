@@ -100,7 +100,7 @@ const pieces = [
     price: "$150",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DZLW2OaG-N0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "vanity.jpg"
   },
   {
@@ -130,7 +130,7 @@ const pieces = [
     price: "$2450",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DZLcOqom5ll/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "vernerpanton.jpg"
   },
   {
