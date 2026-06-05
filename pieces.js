@@ -381,7 +381,7 @@ const pieces = [
     price: "$25",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    instagramUrl: "https://www.instagram.com/p/DZNdH_CEWNt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "grape-bowl.jpg"
   },
   {
@@ -435,7 +435,7 @@ const pieces = [
     image: "tiffin-glasses.jpg"
   },
   {
-    name: "Vintage Anchor Hocking Lido Milano Blue Sherbet/Dessert Crinkle Glasses ",
+    name: "Vintage Anchor Hocking Lido Milano Blue Sherbet/Dessert Crinkle Glasses",
     era: "1970s · Glass",
     category: "lighting-decor",
     price: "$45",
