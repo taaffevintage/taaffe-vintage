@@ -98,7 +98,8 @@ const pieces = [
     era: "1940s · Solid wood",
     category: "storage",
     price: "$150",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-06-04",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DZLW2OaG-N0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "vanity.jpg"
