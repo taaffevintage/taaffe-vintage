@@ -441,7 +441,7 @@ const pieces = [
     price: "$45",
     status: "available",
     featured: false,
-    instagramUrl: "hhttps://www.instagram.com/p/C0Pwz25pt3J/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+    instagramUrl: "https://www.instagram.com/p/C0Pwz25pt3J/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
     image: "blueglasses.jpg"
   },
   {
