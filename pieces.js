@@ -281,7 +281,8 @@ const pieces = [
     era: "1970s · Glass",
     category: "lighting-decor",
     price: "$25",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-06-05",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DW2CEWElH7n/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
     image: "tray.jpg"
