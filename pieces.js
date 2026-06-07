@@ -108,8 +108,9 @@ const pieces = [
     name: "Vintage MCM Tobago Style Brutalist Lighted China Cabinet",
     era: "1970s · Project",
     category: "storage",
-    price: "$325",
-    status: "available",
+    price: "$295",
+    oldPrice: "$325",
+    status: "drop",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DZGCdj9G83_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "tobago.jpg"
@@ -166,18 +167,6 @@ const pieces = [
     image: "arcfloorlamp.jpg"
   },
   {
-    name: "Vintage 1950s Walnut Credenza by Madison Furniture Company",
-    era: "1950s · Mid-Century",
-    category: "storage",
-    price: "$850",
-    oldPrice: "$1450",
-    status: "sold",
-    soldDate: "2026-05-05",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DVrFUIuEUs1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "madison-credenza.jpg"
-  },
-  {
     name: "Vintage 1970s Lane Staccato Brutalist Large Mirror",
     era: "1970s · Oak",
     category: "lighting-decor",
@@ -210,18 +199,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DXM0B8ZkUA3/?igsh=YzBmcjhqMTJzNGF0",
     image: "tungsi-dresser.jpg"
-  },
-  {
-    name: "Vintage 1980s Tessellated Mactan Stone Coffee Table by Maitland-Smith",
-    era: "1980s · Stone",
-    category: "tables",
-    price: "$395",
-    oldPrice: "$425",
-    status: "sold",
-    soldDate: "2026-05-07",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DW1cdNODijV/?igsh=NmpzbzM5MjVkcjBp",
-    image: "tessellated-table.jpg"
   },
   {
     name: "Vintage Henredon Mahogany Clawfoot or Claw Foot Side/End Table",
