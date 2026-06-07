@@ -77,7 +77,7 @@ const pieces = [
     name: "Monte Design Group \u201CJoya\u201D Rocker Rocking Chair",
     era: "2020s · Walnut",
     category: "seating",
-    price: "$650",
+    price: "$575",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
