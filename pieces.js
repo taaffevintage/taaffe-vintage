@@ -357,7 +357,8 @@ const pieces = [
     era: "1980s · Ceramic",
     category: "lighting-decor",
     price: "$25",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-06-08",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DZNdH_CEWNt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "grape-bowl.jpg"
