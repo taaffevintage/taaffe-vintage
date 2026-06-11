@@ -461,7 +461,7 @@ const pieces = [
     price: "$85",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/p/ChAbAzurq7k/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+    instagramUrl: "https://www.instagram.com/p/DZc0mK7EZJT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "white-table.jpg"
   }
 ];
