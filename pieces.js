@@ -458,7 +458,7 @@ const pieces = [
     name: "1980s Postmodern Contemporary White Laminate Table",
     era: "1980s · Laminate",
     category: "tables",
-    price: "$150",
+    price: "$85",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/ChAbAzurq7k/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
