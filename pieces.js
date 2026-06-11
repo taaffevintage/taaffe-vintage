@@ -90,7 +90,7 @@ const pieces = [
     price: "$450",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DZdEithGwW5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "leftdesk.jpg"
   },
   {
