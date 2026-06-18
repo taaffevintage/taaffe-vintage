@@ -226,7 +226,8 @@ const pieces = [
     era: "1980s · Painting",
     category: "lighting-decor",
     price: "$250",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-06-15",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DRF1zuvkmly/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "parlor-painting.jpg"
