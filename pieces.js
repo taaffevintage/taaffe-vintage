@@ -110,7 +110,8 @@ const pieces = [
     category: "storage",
     price: "$295",
     oldPrice: "$325",
-    status: "drop",
+    status: "sold",
+    soldDate: "2026-06-20",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DZGCdj9G83_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "tobago.jpg"
