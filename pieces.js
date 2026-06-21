@@ -157,17 +157,6 @@ const pieces = [
     image: "plumcanebench.jpg"
   },
   {
-    name: "Vintage 5 Light Mushroom Arc Floor Lamp",
-    era: "1990s · Chrome",
-    category: "lighting-decor",
-    price: "$195",
-    status: "sold",
-    featured: false,
-    soldDate: "2026-05-18",
-    instagramUrl: "https://www.instagram.com/p/DYXzlKiG1cw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "arcfloorlamp.jpg"
-  },
-  {
     name: "Vintage 1970s Lane Staccato Brutalist Large Mirror",
     era: "1970s · Oak",
     category: "lighting-decor",
@@ -176,30 +165,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DYYOYSlmxHq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "brutalist-mirror.jpg"
-  },
-  {
-    name: "Vintage Mid Century Modern Walnut 3 Drawer Dresser in the Style of Stanley",
-    era: "1960s · Walnut",
-    category: "storage",
-    price: "$350",
-    oldPrice: "$375",
-    status: "sold",
-    soldDate: "2026-05-11",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage/",
-    image: "stanley-like-dresser.jpg"
-  },
-  {
-    name: "Vintage Mid Century Asian Inspired 12 Drawer Hickory Dresser by Tung Si",
-    era: "1950s · Hickory",
-    category: "storage",
-    price: "$595",
-    oldPrice: "$950",
-    status: "sold",
-    soldDate: "2026-05-18",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DXM0B8ZkUA3/?igsh=YzBmcjhqMTJzNGF0",
-    image: "tungsi-dresser.jpg"
   },
   {
     name: "Vintage Henredon Mahogany Clawfoot or Claw Foot Side/End Table",
@@ -232,17 +197,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DRF1zuvkmly/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "parlor-painting.jpg"
-  },
-  {
-    name: "Custom-Made Modern Solid Walnut Wood L-Shaped Desk",
-    era: "2020s · Walnut",
-    category: "tables",
-    price: "$500",
-    soldDate: "2026-05-10",
-    status: "sold",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage/",
-    image: "ldesk.jpg"
   },
   {
     name: "Vintage 1970’s Romeo Rega Style Chrome and Glass Etagere Shelf",
@@ -296,41 +250,6 @@ const pieces = [
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DWJ0OLhjnkE/?igsh=MTltamdiN3dsZWMzZA==",
     image: "chifforobe.jpg"
-  },
-  {
-    name: "Vintage Lane Staccato Brutalist Mid Century Oak Nightstand",
-    era: "1970s · Oak",
-    category: "tables",
-    price: "$350",
-    oldPrice: "$495",
-    status: "sold",
-    soldDate: "2026-05-15",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DWJqXE0jhh6/?igsh=dXM2YWxkZWsyYW55",
-    image: "brutalist-table.jpg"
-  },
-  {
-    name: "Vintage Postmodern Sirmos Plaster Faux Rock Console Table",
-    era: "1980s · 2 available",
-    category: "tables",
-    price: "$220",
-    oldPrice: "$350",
-    status: "sold",
-    soldDate: "2026-05-22",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DV_ozETEXsP/?igsh=YjljajFpcmRnaWJw",
-    image: "sirmos-table.jpg"
-  },
-  {
-    name: "Pair of 1980s Danish Teak Side Tables by A.B.J.",
-    era: "1980s · Teak",
-    category: "tables",
-    price: "$550",
-    status: "sold",
-    soldDate: "2026-05-19",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DV1CHqMDro2/?igsh=MWl6cTZhNGpkanM5eQ==",
-    image: "teak-tables.jpg"
   },
   {
     name: "Lane Staccato Brutalist Mid Century Walnut Queen Headboard",
