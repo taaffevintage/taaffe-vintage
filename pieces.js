@@ -74,6 +74,106 @@
 
 const pieces = [
   {
+    name: "Antique 1920s School Cupboard by the North of England School Furnishing Company",
+    era: "1920s · Solid wood",
+    category: "storage",
+    price: "$650",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "schoolbookcase.jpg"
+  },
+  {
+    name: "Vintage Rembrandt Stiffel Brass Table Lamp",
+    era: "1970s · Brass",
+    category: "lighting-decor",
+    price: "$295",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "brasslamp.jpg"
+  },
+  {
+    name: "Fully Refinished Vintage Broyhill Brasilia Side Table",
+    era: "1960s · Walnut",
+    category: "tables",
+    price: "$575",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "brasiliasidetable.jpg"
+  },
+  {
+    name: "Vintage Mini Lucite Table/Desk Lamp",
+    era: "1970s · Lucite",
+    category: "lighting-decor",
+    price: "$35",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "lucitelight.jpg"
+  },
+  {
+    name: "Mid Century MCM Tapered Leg Side Table",
+    era: "20th Century · Solid Wood",
+    category: "tables",
+    price: "$75",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "sidetable.jpg"
+  },
+  {
+    name: "Vintage Brass Waterfall/Tiered Eyeball Lamp after Sonneman",
+    era: "1970s · Brass",
+    category: "lighting-decor",
+    price: "$450",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "waterfalllamp.jpg"
+  },
+  {
+    name: "Vintage \u201CBoulevard of Broken Dreams\u201D Painting Print with Pink Neon Light",
+    era: "1980s · Neon",
+    category: "lighting-decor",
+    price: "$525",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "singleneon.jpg"
+  },
+  {
+    name: "Victorian Footed Marble and Brass Table Lamp with Fabric Fringe/Tassel Lamp Shade",
+    era: "1960s · Brass/Marble",
+    category: "lighting-decor",
+    price: "$375",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "artdecolamp.jpg"
+  },
+  {
+    name: "Rare Lane Altavista Brutalist Rosewood and Walnut Headboard by Paul McCobb in King",
+    era: "1970s · Rosewood and Walnut",
+    category: "seating",
+    price: "$975",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "rosewoodheadboard.jpg"
+  },
+  {
+    name: "Vintage 1970s Groovy Loveseat Sofa with Jack Lenor Larson Fabric",
+    era: "1970s · Jack Lenor Larson",
+    category: "seating",
+    price: "$750",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "jllsofa.jpg"
+  },
+  {
     name: "Monte Design Group \u201CJoya\u201D Rocker Rocking Chair",
     era: "2020s · Walnut",
     category: "seating",
