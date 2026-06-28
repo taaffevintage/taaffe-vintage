@@ -97,8 +97,9 @@ const pieces = [
     name: "Fully Refinished Vintage Broyhill Brasilia Side Table",
     era: "1960s · Walnut",
     category: "tables",
-    price: "$575",
-    status: "available",
+    price: "$545",
+    status: "sold",
+    soldDate: "2026-06-27",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "brasiliasidetable.jpg"
