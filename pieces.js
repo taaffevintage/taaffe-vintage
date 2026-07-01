@@ -170,7 +170,7 @@ const pieces = [
     category: "seating",
     price: "$750",
     status: "available",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "jllsofa.jpg"
   },
@@ -336,8 +336,9 @@ const pieces = [
     era: "1980s · Teak",
     category: "storage",
     price: "$950",
-    status: "available",
-    featured: true,
+    status: "sold",
+    soldDate: "2026-07-01",
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DWZWDZ3ERHK/?igsh=Z3lrc3NtdHJzaDAz",
     image: "danish-puzzle.jpg"
   },
