@@ -169,8 +169,9 @@ const pieces = [
     era: "1970s · Jack Lenor Larson",
     category: "seating",
     price: "$750",
-    status: "available",
-    featured: true,
+    status: "sold",
+    soldDate: "2026-07-05",
+    featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "jllsofa.jpg"
   },
@@ -223,7 +224,7 @@ const pieces = [
     category: "seating",
     price: "$1450",
     status: "available",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "charlton.jpg"
   },
