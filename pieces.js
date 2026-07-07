@@ -196,17 +196,6 @@ const pieces = [
     image: "leftdesk.jpg"
   },
   {
-    name: "Antique Forest Furniture Company Vanity and Mirror Set Circa 1940",
-    era: "1940s · Solid wood",
-    category: "storage",
-    price: "$150",
-    status: "sold",
-    soldDate: "2026-06-04",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DZLW2OaG-N0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "vanity.jpg"
-  },
-  {
     name: "Vintage MCM Tobago Style Brutalist Lighted China Cabinet",
     era: "1970s · Project",
     category: "storage",
@@ -310,17 +299,6 @@ const pieces = [
     featured: true,
     instagramUrl: "https://www.instagram.com/p/C769jQDJi_T/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
     image: "romeorega-etagere.jpg"
-  },
-  {
-    name: "Vintage Glass Mirror and Lucite Vanity Tray",
-    era: "1970s · Glass",
-    category: "lighting-decor",
-    price: "$25",
-    status: "sold",
-    soldDate: "2026-06-05",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DW2CEWElH7n/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
-    image: "tray.jpg"
   },
   {
     name: "Adrian Pearsall for Craft Associates Mid-Century Modern Cube Plinth Planter",
