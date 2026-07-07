@@ -78,7 +78,8 @@ const pieces = [
     era: "1920s · Solid wood",
     category: "storage",
     price: "$650",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-07-07",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "schoolbookcase.jpg"
