@@ -74,6 +74,16 @@
 
 const pieces = [
   {
+    name: "Vintage MCM Teak Media Cabinet/Console With “Exoskeleton” Legs and Sliding Doors",
+    era: "1960s · Teak",
+    category: "storage",
+    price: "$750",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "mediaconsole.jpg"
+  },
+  {
     name: "Antique 1920s School Cupboard by the North of England School Furnishing Company",
     era: "1920s · Solid wood",
     category: "storage",
