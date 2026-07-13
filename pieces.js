@@ -130,7 +130,8 @@ const pieces = [
     era: "20th Century · Solid Wood",
     category: "tables",
     price: "$75",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-07-12",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "sidetable.jpg"
