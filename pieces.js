@@ -402,7 +402,7 @@ const pieces = [
     name: "Early 1900s 20th Century Depression Era Wooden Dining Table",
     era: "1900s · Tiger Oak",
     category: "tables",
-    price: "$1295",
+    price: "$895",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage/",
