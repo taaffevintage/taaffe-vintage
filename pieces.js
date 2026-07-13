@@ -382,7 +382,7 @@ const pieces = [
     name: "Vintage Rustic Solid Reclaimed Wood Farmhouse Bookcase",
     era: "Vintage · Solid Wood",
     category: "storage",
-    price: "$1295",
+    price: "$895",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DXpYalNm1el/?igsh=aHBjbndmM3o4enJu",
