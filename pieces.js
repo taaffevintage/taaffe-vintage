@@ -79,7 +79,7 @@ const pieces = [
     category: "storage",
     price: "$750",
     status: "available",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "mediaconsole.jpg"
   },
@@ -244,8 +244,9 @@ const pieces = [
     era: "1970s · Teak",
     category: "seating",
     price: "$895",
-    status: "available",
-    featured: true,
+    status: "sold",
+    soldDate: "2026-07-11",
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DY7Q1gam5qV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "bennylinden.jpg"
   },
