@@ -255,7 +255,8 @@ const pieces = [
     era: "1950s · Plum Bench",
     category: "seating",
     price: "$1500",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-07-21",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DYsJP-kG-rL/?igsh=eGJkNWJmOGJhdmhh",
     image: "plumcanebench.jpg"
