@@ -334,7 +334,8 @@ const pieces = [
     era: "1970s · Walnut",
     category: "seating",
     price: "$1450",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-07-28",
     featured: true,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "charlton.jpg"
