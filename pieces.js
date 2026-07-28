@@ -174,7 +174,7 @@ const pieces = [
     image: "SonnemanTallLamp.jpg"
   },
   {
-    name: "American of Martinsville \u201CDania\u201D Walnut Modular Bench and Desk/Bar Cabinet Attachment by Merton Gershun",
+    name: "Refinished American of Martinsville \u201CDania\u201D Walnut Modular Bench and Desk/Bar Cabinet Attachment by Merton Gershun",
     era: "1950s · Walnut",
     category: "storage",
     price: "$1200",
