@@ -74,6 +74,116 @@
 
 const pieces = [
   {
+    name: "Vintage 1970s Chrome Waterfall Cantilever Dining Chairs after Milo Baughman",
+    era: "1970s · Chrome",
+    category: "seating",
+    price: "Coming Soon",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "SeafoamStools.jpg"
+  },
+  {
+    name: "Vintage 1970s Chrome Waterfall Cantilever Dining Chairs after Milo Baughman",
+    era: "1970s · Chrome",
+    category: "seating",
+    price: "$1250",
+    status: "available",
+    featured: true,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "MBChairs.jpg"
+  },
+  {
+    name: "Vintage Cane Lounge Chair and Ottoman Set",
+    era: "1970s · Solid Wood",
+    category: "seating",
+    price: "$875",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "CaneChairOttoman.jpg"
+  },
+  {
+    name: "Vintage 1970s Modular Brown Velvet “Playpen” Sofa and Ottoman After Milo Baughman",
+    era: "1970s · Velvet",
+    category: "seating",
+    price: "$1450",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "Playpen.jpg"
+  },
+  {
+    name: "Antique Solid Mission Carved Oak Wood Church Pew Bench",
+    era: "1900s · Solid Oak",
+    category: "seating",
+    price: "$550",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "ChurchPew.jpg"
+  },
+  {
+    name: "Vintage 1970s Retro Modular Velvet Playpen Style Sectional Sofa",
+    era: "1970s · Velvet",
+    category: "seating",
+    price: "$795",
+    status: "available",
+    featured: true,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "Sectional.jpg"
+  },
+  {
+    name: "Vintage 1970s MCM Teak Wood Converted Bar Cabinet",
+    era: "1970s · Teak",
+    category: "storage",
+    price: "$795",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "BarCabinet.jpg"
+  },
+  {
+    name: "American of Martinsville \u201CDania\u201D Walnut Modular Bench and Cabinet Attachment by Merton Gershun",
+    era: "1950s · Walnut",
+    category: "storage",
+    price: "$800",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "AoMCabinet.jpg"
+  },
+  {
+    name: "Antique Solid Wood Barley Twist Lamp Side/Table With Claw Feet After Merklen Furniture Company",
+    era: "1890s · Solid Wood",
+    category: "tables",
+    price: "$375",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "BarleyTable.jpg"
+  },
+  {
+    name: "Vintage 1970s Mid-Century Modern Sonneman “Waterfall” Cascading Globe Floor Lamp in Brass",
+    era: "1970s · Brass",
+    category: "lighting-decor",
+    price: "$450",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "SonnemanFloorLamp.jpg"
+  },
+  {
+    name: "American of Martinsville \u201CDania\u201D Walnut Modular Bench and Desk/Bar Cabinet Attachment by Merton Gershun",
+    era: "1950s · Walnut",
+    category: "storage",
+    price: "$1200",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "AoMDesk.jpg"
+  },
+  {
     name: "Vintage MCM Teak Media Cabinet/Console With “Exoskeleton” Legs and Sliding Doors",
     era: "1960s · Teak",
     category: "storage",
@@ -160,7 +270,7 @@ const pieces = [
     name: "Victorian Footed Marble and Brass Table Lamp with Fabric Fringe/Tassel Lamp Shade",
     era: "1960s · Brass/Marble",
     category: "lighting-decor",
-    price: "$375",
+    price: "$295",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
@@ -310,7 +420,7 @@ const pieces = [
     price: "$795",
     oldPrice: "$950",
     status: "available",
-    featured: true,
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/C769jQDJi_T/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
     image: "romeorega-etagere.jpg"
   },
@@ -353,7 +463,7 @@ const pieces = [
     price: "$495",
     oldPrice: "$650",
     status: "drop",
-    featured: true,
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DVRsYHQESQa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "lane-headboard.jpg"
   },
