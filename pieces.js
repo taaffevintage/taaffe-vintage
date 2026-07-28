@@ -171,7 +171,7 @@ const pieces = [
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
-    image: "SonnemanFloorLamp.jpg"
+    image: "SonnemanTallLamp.jpg"
   },
   {
     name: "American of Martinsville \u201CDania\u201D Walnut Modular Bench and Desk/Bar Cabinet Attachment by Merton Gershun",
