@@ -344,7 +344,8 @@ const pieces = [
     era: "1990s · Fiberglass",
     category: "seating",
     price: "$2450",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-07-18",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DZLcOqom5ll/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "vernerpanton.jpg"
