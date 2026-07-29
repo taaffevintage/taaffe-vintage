@@ -109,7 +109,7 @@ const pieces = [
     category: "seating",
     price: "$1450",
     status: "available",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "Playpen.jpg"
   },
@@ -128,8 +128,9 @@ const pieces = [
     era: "1970s · Velvet",
     category: "seating",
     price: "$795",
-    status: "available",
-    featured: true,
+    status: "sold",
+    soldDate: "2026-07-29",
+    featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "Sectional.jpg"
   },
