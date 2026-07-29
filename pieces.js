@@ -230,7 +230,8 @@ const pieces = [
     era: "1970s · Lucite",
     category: "lighting-decor",
     price: "$35",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-07-28",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "lucitelight.jpg"
