@@ -97,7 +97,7 @@ const pieces = [
     name: "Vintage Cane Lounge Chair and Ottoman Set",
     era: "1970s · Solid Wood",
     category: "seating",
-    price: "$850",
+    price: "$795",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
