@@ -77,7 +77,7 @@ const pieces = [
     name: "Vintage 1970s Chrome Waterfall Cantilever Dining Chairs after Milo Baughman",
     era: "1970s · Chrome",
     category: "seating",
-    price: "895",
+    price: "$895",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
