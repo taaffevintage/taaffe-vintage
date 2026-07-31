@@ -94,13 +94,13 @@ const pieces = [
     image: "MBChairs.jpg"
   },
   {
-    name: "Vintage Cane Lounge Chair and Ottoman Set",
+    name: "Vintage 1970s Cane and Carved Solid Wood Chair and Ottoman Set",
     era: "1970s · Solid Wood",
     category: "seating",
     price: "$795",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DbbIQWGEdxd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "CaneChairOttoman.jpg"
   },
   {
@@ -131,7 +131,7 @@ const pieces = [
     status: "sold",
     soldDate: "2026-07-29",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DbWg7tTEbIZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "Sectional.jpg"
   },
   {
@@ -141,7 +141,7 @@ const pieces = [
     price: "$695",
     oldPrice: "$795",
     status: "drop",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "BarCabinet.jpg"
   },
@@ -172,7 +172,7 @@ const pieces = [
     price: "$450",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DbLdYz1jmy2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "SonnemanTallLamp.jpg"
   },
   {
@@ -182,7 +182,7 @@ const pieces = [
     price: "$1200",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DbbD4fkEV95/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "AoMDesk.jpg"
   },
   {
@@ -193,7 +193,7 @@ const pieces = [
     oldPrice: "$750",
     status: "drop",
     featured: true,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DbEIgDcm7w8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "mediaconsole.jpg"
   },
   {
@@ -287,15 +287,15 @@ const pieces = [
     status: "sold",
     soldDate: "2026-07-05",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DaaqOBDGyza/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "jllsofa.jpg"
   },
   {
     name: "Monte Design Group \u201CJoya\u201D Rocker Rocking Chair",
     era: "2020s · Walnut",
     category: "seating",
-    price: "$575",
-    oldPrice: "$395",
+    oldPrice: "$575",
+    price: "$395",
     status: "drop",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
@@ -319,8 +319,8 @@ const pieces = [
     price: "$1450",
     status: "sold",
     soldDate: "2026-07-28",
-    featured: true,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DZh6Wm2kbsk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "charlton.jpg"
   },
   {
