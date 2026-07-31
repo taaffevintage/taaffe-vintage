@@ -306,7 +306,8 @@ const pieces = [
     era: "2020s · Walnut",
     category: "tables",
     price: "$450",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-07-31",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DZdEithGwW5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "leftdesk.jpg"
