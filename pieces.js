@@ -335,17 +335,6 @@ const pieces = [
     image: "vernerpanton.jpg"
   },
   {
-    name: "1970s Benny Linden Solid Teak Dining Chairs with new Upholstery - Set of Four",
-    era: "1970s · Teak",
-    category: "seating",
-    price: "$895",
-    status: "sold",
-    soldDate: "2026-07-11",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DY7Q1gam5qV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "bennylinden.jpg"
-  },
-  {
     name: "1950s Vintage Mid-Century Modern Cane Back Bench",
     era: "1950s · Plum Bench",
     category: "seating",
@@ -360,9 +349,9 @@ const pieces = [
     name: "Vintage 1970s Lane Staccato Brutalist Large Mirror",
     era: "1970s · Oak",
     category: "lighting-decor",
-    price: "$45",
-    oldPrice: "$95",
-    status: "drop",
+    price: "$95",
+    status: "sold",
+    soldDate: "2026-08-01",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DYYOYSlmxHq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "brutalist-mirror.jpg"
