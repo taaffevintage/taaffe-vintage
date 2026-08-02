@@ -191,7 +191,8 @@ const pieces = [
     category: "storage",
     price: "$695",
     oldPrice: "$750",
-    status: "drop",
+    status: "sold",
+    soldDate: "2026=08-01",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DbEIgDcm7w8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "mediaconsole.jpg"
