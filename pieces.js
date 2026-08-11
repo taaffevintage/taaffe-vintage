@@ -118,7 +118,8 @@ const pieces = [
     era: "1900s · Solid Oak",
     category: "seating",
     price: "$550",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-08-10",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "ChurchPew.jpg"
