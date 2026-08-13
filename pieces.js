@@ -160,7 +160,7 @@ const pieces = [
     name: "Antique Solid Wood Barley Twist Lamp Side/Table With Claw Feet After Merklen Furniture Company",
     era: "1890s · Solid Wood",
     category: "tables",
-    price: "$375",
+    price: "$295",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
