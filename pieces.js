@@ -426,9 +426,9 @@ const pieces = [
     name: "Lane Staccato Brutalist Mid Century Walnut Queen Headboard",
     era: "1970s · Walnut",
     category: "storage",
-    price: "$350",
-    oldPrice: "$595",
-    status: "drop",
+    price: "$595",
+    status: "sold",
+    soldDate: "2026-08-13",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DVRsYHQESQa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "lane-headboard.jpg"
