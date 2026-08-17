@@ -198,17 +198,6 @@ const pieces = [
     image: "mediaconsole.jpg"
   },
   {
-    name: "Antique 1920s School Cupboard by the North of England School Furnishing Company",
-    era: "1920s · Solid wood",
-    category: "storage",
-    price: "$650",
-    status: "sold",
-    soldDate: "2026-07-07",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
-    image: "schoolbookcase.jpg"
-  },
-  {
     name: "Vintage Rembrandt Stiffel Brass Table Lamp",
     era: "1970s · Brass",
     category: "lighting-decor",
@@ -228,17 +217,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "lucitelight.jpg"
-  },
-  {
-    name: "Mid Century MCM Tapered Leg Side Table",
-    era: "20th Century · Solid Wood",
-    category: "tables",
-    price: "$75",
-    status: "sold",
-    soldDate: "2026-07-12",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
-    image: "sidetable.jpg"
   },
   {
     name: "Vintage Brass Waterfall/Tiered Eyeball Lamp after Sonneman",
@@ -281,17 +259,6 @@ const pieces = [
     image: "rosewoodheadboard.jpg"
   },
   {
-    name: "Vintage 1970s Groovy Loveseat Sofa with Jack Lenor Larson Fabric",
-    era: "1970s · Jack Lenor Larson",
-    category: "seating",
-    price: "$750",
-    status: "sold",
-    soldDate: "2026-07-05",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DaaqOBDGyza/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "jllsofa.jpg"
-  },
-  {
     name: "Monte Design Group \u201CJoya\u201D Rocker Rocking Chair",
     era: "2020s · Walnut",
     category: "seating",
@@ -323,17 +290,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DZh6Wm2kbsk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "charlton.jpg"
-  },
-  {
-    name: "1990s Verner Panton for Vitra Sculptural Molded Fiberglass Dining Chairs",
-    era: "1990s · Fiberglass",
-    category: "seating",
-    price: "$2450",
-    status: "sold",
-    soldDate: "2026-07-18",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DZLcOqom5ll/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "vernerpanton.jpg"
   },
   {
     name: "1950s Vintage Mid-Century Modern Cane Back Bench",
@@ -372,9 +328,8 @@ const pieces = [
     name: "Set of Four Vintage 1950s Walnut and Linen Dining Chairs After Conant Ball",
     era: "1960s · Walnut",
     category: "seating",
-    price: "$950",
-    oldPrice: "$750",
-    status: "drop",
+    price: "$750",
+    status: "available",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/C_30-CUJ2W6/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
     image: "conantball-chairs.jpg"
@@ -399,17 +354,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DWZp7p2FLF7/?igsh=MTJhbTVudjljZTN4OQ==",
     image: "pearsall-planter.jpg"
-  },
-  {
-    name: "Vintage 1980s Danish \u201CPuzzle Piece\u201D Sliding Credenza / Console",
-    era: "1980s · Teak",
-    category: "storage",
-    price: "$950",
-    status: "sold",
-    soldDate: "2026-07-01",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DWZWDZ3ERHK/?igsh=Z3lrc3NtdHJzaDAz",
-    image: "danish-puzzle.jpg"
   },
   {
     name: "Vintage Danish Teak Tallboy Chifforobe or Tallboy Dresser",
