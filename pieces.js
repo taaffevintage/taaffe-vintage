@@ -171,7 +171,8 @@ const pieces = [
     era: "1970s · Brass",
     category: "lighting-decor",
     price: "$450",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-08-20",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DbLdYz1jmy2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "SonnemanTallLamp.jpg"
