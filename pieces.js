@@ -151,7 +151,8 @@ const pieces = [
     era: "1950s · Walnut",
     category: "storage",
     price: "$800",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-08-20",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "AoMCabinet.jpg"
