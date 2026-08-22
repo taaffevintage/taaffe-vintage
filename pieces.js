@@ -164,14 +164,14 @@ const pieces = [
     image: "CaneChairOttoman.jpg"
   },
   {
-    name: "Vintage 1970s Modular Brown Velvet “Playpen” Sofa and Ottoman After Milo Baughman",
+    name: "Vintage 1970s Modular Brown Velvet \u201CPlaypen\u201D Sofa and Ottoman After Milo Baughman",
     era: "1970s · Velvet",
     category: "seating",
     price: "$1450",
     status: "available",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DbeElPCm228/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
-    image: "Playpen.jpg"
+    image: "Playpen2.jpg"
   },
   {
     name: "Antique Solid Mission Carved Oak Wood Church Pew Bench",
