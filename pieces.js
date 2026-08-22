@@ -114,7 +114,7 @@ const pieces = [
     image: "sonnemanbankerlamp.jpg"
   },
   {
-    name: "Vintage Walnut "Gate Leg" Dining Table With Drop Leaves After George Nelson for Herman Miller",
+    name: "Vintage Walnut Gate Leg Dining Table With Drop Leaves After George Nelson for Herman Miller",
     era: "1960s · Walnut",
     category: "tables",
     price: "$1250",
