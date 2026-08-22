@@ -74,6 +74,46 @@
 
 const pieces = [
   {
+    name: "Mid-Century Modern 1960s Teak and Ceramic Tile Top Coffee Table",
+    era: "1960s · Teak",
+    category: "tables",
+    price: "$395",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com",
+    image: "danishtilecoffeetable.jpg"
+  },
+  {
+    name: "Antique Art Deco Oak Credenza Sideboard / Stepped Buffet Cabinet",
+    era: "1920s · Tiger Oak",
+    category: "storage",
+    price: "$950",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com",
+    image: "artdeco.jpg"
+  },
+  {
+    name: "Vintage Tensor Pittsburg Collection Lt627 Articulating and Dimmable Halogen Desk Lamp",
+    era: "1980s · Nickel",
+    category: "lighting-decor",
+    price: "$95",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com",
+    image: "ufolamp.jpg"
+  },
+  {
+    name: "1980s Memphis Style Bankers Desk Lamp by Robert Sonneman for George Kovacs",
+    era: "1980s · Brass",
+    category: "lighting-decor",
+    price: "$75",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com",
+    image: "sonnemanbankerlamp.jpg"
+  },
+  {
     name: "Vintage Walnut "Gate Leg" Dining Table With Drop Leaves After George Nelson for Herman Miller",
     era: "1960s · Walnut",
     category: "tables",
