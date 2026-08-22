@@ -74,7 +74,27 @@
 
 const pieces = [
   {
-    name: "Vintage 1970s Chrome Waterfall Cantilever Dining Chairs after Milo Baughman",
+    name: "Vintage Walnut "Gate Leg" Dining Table With Drop Leaves After George Nelson for Herman Miller",
+    era: "1960s · Walnut",
+    category: "tables",
+    price: "$1250",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DcUGqcwmwXk/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
+    image: "ConantTable.jpg"
+  },
+  {
+    name: "Set of Four Vintage 1950s Walnut and Linen Dining Chairs After Conant Ball",
+    era: "1960s · Walnut",
+    category: "seating",
+    price: "$750",
+    status: "available",
+    featured: true,
+    instagramUrl: "https://www.instagram.com/p/DcUDW5Em84R/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
+    image: "conantball-chairs.jpg"
+  },
+  {
+    name: "Vintage 1970s Mid Century MCM Tulip Style Chrome Swivel Bar Stools",
     era: "1970s · Chrome",
     category: "seating",
     price: "$895",
@@ -90,7 +110,7 @@ const pieces = [
     price: "$1250",
     status: "available",
     featured: true,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DbwFX8wG6YW/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
     image: "MBChairs.jpg"
   },
   {
@@ -110,7 +130,7 @@ const pieces = [
     price: "$1450",
     status: "available",
     featured: true,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DbeElPCm228/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
     image: "Playpen.jpg"
   },
   {
@@ -143,7 +163,7 @@ const pieces = [
     oldPrice: "$795",
     status: "drop",
     featured: true,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DbJ8SlMG8ec/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
     image: "BarCabinet.jpg"
   },
   {
@@ -154,7 +174,7 @@ const pieces = [
     status: "sold",
     soldDate: "2026-08-20",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/Dbwe6nqG1I7/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
     image: "AoMCabinet.jpg"
   },
   {
@@ -164,7 +184,7 @@ const pieces = [
     price: "$295",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/Db9Q9kOm3Ib/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
     image: "BarleyTable.jpg"
   },
   {
@@ -268,7 +288,7 @@ const pieces = [
     price: "$395",
     status: "drop",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DZTVoJwm7cG/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
     image: "joya.jpg"
   },
   {
@@ -325,16 +345,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DY7SgGIG9F5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "clawfoot-table.jpg"
-  },
-  {
-    name: "Set of Four Vintage 1950s Walnut and Linen Dining Chairs After Conant Ball",
-    era: "1960s · Walnut",
-    category: "seating",
-    price: "$750",
-    status: "available",
-    featured: true,
-    instagramUrl: "https://www.instagram.com/p/C_30-CUJ2W6/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
-    image: "conantball-chairs.jpg"
   },
   {
     name: "Vintage 1970’s Romeo Rega Style Chrome and Glass Etagere Shelf",
