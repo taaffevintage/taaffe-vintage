@@ -222,7 +222,8 @@ const pieces = [
     era: "1890s · Solid Wood",
     category: "tables",
     price: "$295",
-    status: "available",
+    status: "sold",
+    solDate: "2026-08-27",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/Db9Q9kOm3Ib/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
     image: "BarleyTable.jpg"
