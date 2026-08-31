@@ -158,7 +158,8 @@ const pieces = [
     era: "1970s · Solid Wood",
     category: "seating",
     price: "$795",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-08-30",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DbbIQWGEdxd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "CaneChairOttoman.jpg"
@@ -183,17 +184,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "ChurchPew.jpg"
-  },
-  {
-    name: "Vintage 1970s Retro Modular Velvet Playpen Style Sectional Sofa",
-    era: "1970s · Velvet",
-    category: "seating",
-    price: "$795",
-    status: "sold",
-    soldDate: "2026-07-29",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DbWg7tTEbIZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "Sectional.jpg"
   },
   {
     name: "Vintage 1970s MCM Teak Wood Converted Bar Cabinet",
@@ -271,17 +261,6 @@ const pieces = [
     image: "brasslamp.jpg"
   },
   {
-    name: "Vintage Mini Lucite Table/Desk Lamp",
-    era: "1970s · Lucite",
-    category: "lighting-decor",
-    price: "$35",
-    status: "sold",
-    soldDate: "2026-07-28",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
-    image: "lucitelight.jpg"
-  },
-  {
     name: "Vintage Brass Waterfall/Tiered Eyeball Lamp after Sonneman",
     era: "1970s · Brass",
     category: "lighting-decor",
@@ -344,17 +323,6 @@ const pieces = [
     image: "leftdesk.jpg"
   },
   {
-    name: "Vintage Charlton Lounge Chair and Ottoman Set in the Style of Eames",
-    era: "1970s · Walnut",
-    category: "seating",
-    price: "$1450",
-    status: "sold",
-    soldDate: "2026-07-28",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DZh6Wm2kbsk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "charlton.jpg"
-  },
-  {
     name: "1950s Vintage Mid-Century Modern Cane Back Bench",
     era: "1950s · Plum Bench",
     category: "seating",
@@ -412,10 +380,10 @@ const pieces = [
     name: "Vintage Danish Teak Tallboy Chifforobe or Tallboy Dresser",
     era: "1970s · Teak",
     category: "storage",
-    price: "$850",
-    oldPrice: "$1095",
-    status: "drop",
-    featured: true,
+    price: "$1095",
+    status: "sold",
+    soldDate: "2026-08-30",
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DWJ0OLhjnkE/?igsh=MTltamdiN3dsZWMzZA==",
     image: "chifforobe.jpg"
   },
