@@ -98,7 +98,8 @@ const pieces = [
     era: "1980s · Nickel",
     category: "lighting-decor",
     price: "$95",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-09-10",
     featured: false,
     instagramUrl: "https://www.instagram.com",
     image: "ufolamp.jpg"
@@ -360,7 +361,8 @@ const pieces = [
     era: "1960s · Walnut",
     category: "lighting-decor",
     price: "$375",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-09-10",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DWZp7p2FLF7/?igsh=MTJhbTVudjljZTN4OQ==",
     image: "pearsall-planter.jpg"
@@ -392,8 +394,8 @@ const pieces = [
     era: "1960s · Rosewood",
     category: "tables",
     price: "$350",
-    oldPrice: "$475",
-    status: "drop",
+    status: "sold",
+    soldDate: "2026-09-04",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DUtWLXskeW9/?igsh=MWZ2M2R6eTdzMG85",
     image: "rosewood-table.jpg"
@@ -474,7 +476,8 @@ const pieces = [
     era: "1970s · Glass",
     category: "lighting-decor",
     price: "$30",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-09-09",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/Cs_ciMDg5FG/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
     image: "chipdip.jpg"
