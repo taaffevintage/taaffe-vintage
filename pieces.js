@@ -108,8 +108,9 @@ const pieces = [
     name: "1980s Memphis Style Bankers Desk Lamp by Robert Sonneman for George Kovacs",
     era: "1980s · Brass",
     category: "lighting-decor",
-    price: "$75",
-    status: "available",
+    price: "$80",
+    status: "sold",
+    soldDate: "2026-09-13",
     featured: false,
     instagramUrl: "https://www.instagram.com",
     image: "sonnemanbankerlamp.jpg"
