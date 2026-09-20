@@ -80,7 +80,7 @@ const pieces = [
     price: "$395",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com",
+    instagramUrl: "https://www.instagram.com/p/DcjGK8DkWeR/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     image: "danishtilecoffeetable.jpg"
   },
   {
@@ -89,8 +89,8 @@ const pieces = [
     category: "storage",
     price: "$950",
     status: "available",
-    featured: false,
-    instagramUrl: "https://www.instagram.com",
+    featured: true,
+    instagramUrl: "https://www.instagram.com/p/DczFKcbG-v5/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     image: "artdeco.jpg"
   },
   {
@@ -142,7 +142,7 @@ const pieces = [
     price: "$895",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DczFkC3m98c/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     image: "SeafoamStools.jpg"
   },
   {
