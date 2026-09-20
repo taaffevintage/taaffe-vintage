@@ -277,7 +277,8 @@ const pieces = [
     era: "1980s · Neon",
     category: "lighting-decor",
     price: "$525",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-09-19",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "singleneon.jpg"
