@@ -79,7 +79,7 @@ const pieces = [
     category: "tables",
     price: "$395",
     status: "available",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/p/DcjGK8DkWeR/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     image: "danishtilecoffeetable.jpg"
   },
@@ -88,8 +88,9 @@ const pieces = [
     era: "1920s · Tiger Oak",
     category: "storage",
     price: "$950",
-    status: "available",
-    featured: true,
+    status: "sold",
+    soldDate: "2026-09-23",
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DczFKcbG-v5/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     image: "artdeco.jpg"
   },
