@@ -142,7 +142,7 @@ const pieces = [
     category: "seating",
     price: "$895",
     status: "available",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/p/DczFkC3m98c/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     image: "SeafoamStools.jpg"
   },
@@ -172,8 +172,9 @@ const pieces = [
     era: "1970s · Velvet",
     category: "seating",
     price: "$1450",
-    status: "available",
-    featured: true,
+    status: "sold",
+    soldDate: "2026-10-01",
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DbeElPCm228/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
     image: "Playpen2.jpg"
   },
