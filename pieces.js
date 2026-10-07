@@ -74,12 +74,62 @@
 
 const pieces = [
   {
+    name: "Vintage 1960s Teak G Plan "Fresco" Tallboy Chest Dresser3",
+    era: "1970s · Teak",
+    category: "storage",
+    price: "$1250",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/",
+    image: "Fresco.jpg"
+  },
+  {
+    name: "Modernist Cal-Style Chrome Counter Height Bar Stools With Velvet Green Seats - Set of 3",
+    era: "1970s · Velvet",
+    category: "seating",
+    price: "$1500",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/",
+    image: "BacklessStools.jpg"
+  },
+  {
+    name: "Vintage 1960s Broyhill Sculptra Walnut Mid Century Magna Chest Dresser",
+    era: "1960s · Walnut",
+    category: "storage",
+    price: "$1650",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/",
+    image: "Sculptra.jpg"
+  },
+  {
+    name: "Vintage 1960s Mid Century Modern Kroehler Gondola Sofa after Adrian Pearsall",
+    era: "1960s · Velvet",
+    category: "seating",
+    price: "$3500",
+    status: "available",
+    featured: true,
+    instagramUrl: "https://www.instagram.com/p/DeNRT-EG9-b/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
+    image: "Kroehler.jpg"
+  },
+  {
+    name: "Vintage 1970s Lucite and Brass Floor Lamps - a Pair",
+    era: "1970s · Brass",
+    category: "lighting-decor",
+    price: "$450",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DeKOdlpmyht/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
+    image: "LuciteLamps.jpg"
+  },
+  {
     name: "Mid-Century Modern 1960s Teak and Ceramic Tile Top Coffee Table",
     era: "1960s · Teak",
     category: "tables",
     price: "$395",
     status: "available",
-    featured: true,
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DcjGK8DkWeR/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     image: "danishtilecoffeetable.jpg"
   },
