@@ -92,7 +92,7 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/",
     image: "BacklessStools.jpg"
-  },
+//  },
 //  {
 //    name: "Vintage 1960s Broyhill Sculptra Walnut Mid Century Magna Chest Dresser",
 //    era: "1960s · Walnut",
