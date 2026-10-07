@@ -74,7 +74,7 @@
 
 const pieces = [
   {
-    name: "Vintage 1960s Teak G Plan "Fresco" Tallboy Chest Dresser3",
+    name: "Vintage 1960s Teak G Plan Fresco Tallboy Chest Dresser3",
     era: "1970s · Teak",
     category: "storage",
     price: "$1250",
