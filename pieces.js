@@ -83,16 +83,16 @@ const pieces = [
     instagramUrl: "https://www.instagram.com/",
     image: "Fresco.jpg"
   },
-//  {
-//    name: "Modernist Cal-Style Chrome Counter Height Bar Stools With Velvet Green Seats - Set of 3",
-//    era: "1970s · Velvet",
-//    category: "seating",
-//    price: "$1500",
-//    status: "available",
-//    featured: false,
-//    instagramUrl: "https://www.instagram.com/",
-//    image: "BacklessStools.jpg"
-//  },
+  {
+    name: "Modernist Cal-Style Chrome Counter Height Bar Stools With Velvet Green Seats - Set of 3",
+    era: "1970s · Velvet",
+    category: "seating",
+    price: "$1500",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/",
+    image: "BacklessStools.jpg"
+  },
 //  {
 //    name: "Vintage 1960s Broyhill Sculptra Walnut Mid Century Magna Chest Dresser",
 //    era: "1960s · Walnut",
