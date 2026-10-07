@@ -74,7 +74,7 @@
 
 const pieces = [
   {
-    name: "Vintage 1960s Teak G Plan Fresco Tallboy Chest Dresser3",
+    name: "Vintage 1960s Teak G Plan Fresco Tallboy Chest Dresser",
     era: "1970s · Teak",
     category: "storage",
     price: "$1250",
@@ -82,6 +82,16 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/",
     image: "Fresco.jpg"
+  },
+  {
+    name: "Modernist Cal-Style Chrome Counter Height Bar Stools With Velvet Green Seats",
+    era: "1970s · Velvet",
+    category: "seating",
+    price: "$1500",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/",
+    image: "BacklessStools.jpg"
   },
   {
     name: "Vintage 1960s Broyhill Sculptra Walnut Mid Century Magna Chest Dresser",
