@@ -84,7 +84,7 @@ const pieces = [
     image: "Fresco.jpg"
   },
   {
-    name: "Modernist Cal-Style Chrome Counter Height Bar Stools With Velvet Green Seats - Set of 3",
+    name: "Modernist Cal-Style Chrome Counter Height Bar Stools With Velvet Green Seats",
     era: "1970s · Velvet",
     category: "seating",
     price: "$1500",
