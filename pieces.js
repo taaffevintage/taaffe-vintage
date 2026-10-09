@@ -74,6 +74,16 @@
 
 const pieces = [
   {
+    name: "Vintage Mid Century Chest of Drawers Tallboy Dresser by Rockford",
+    era: "1960s · Teak",
+    category: "storage",
+    price: "$850",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/",
+    image: "Rockford.jpg"
+  },
+  {
     name: "Vintage 1960s Teak G Plan Fresco Tallboy Chest Dresser",
     era: "1970s · Teak",
     category: "storage",
@@ -100,7 +110,7 @@ const pieces = [
     price: "$1650",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/",
+    instagramUrl: "https://www.instagram.com/p/DeQHUY4m3aG/?utm_source=ig_web_copy_link&rpxt=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
     image: "Sculptra.jpg"
   },
   {
