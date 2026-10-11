@@ -74,6 +74,16 @@
 
 const pieces = [
   {
+    name: "Vintage Mid Century 9-drawer Walnut Lowboy Dresser by Stanley",
+    era: "1960s · Walnut",
+    category: "storage",
+    price: "$1495",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/",
+    image: "Stanley.jpg"
+  },
+  {
     name: "Vintage Mid Century Chest of Drawers Tallboy Dresser by Rockford",
     era: "1960s · Teak",
     category: "storage",
