@@ -90,7 +90,7 @@ const pieces = [
     price: "$850",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/",
+    instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "Rockford.jpg"
   },
   {
@@ -100,7 +100,7 @@ const pieces = [
     price: "$1250",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/",
+    instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "Fresco.jpg"
   },
   {
@@ -110,7 +110,7 @@ const pieces = [
     price: "$1500",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/",
+    instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "BacklessStools.jpg"
   },
   {
@@ -172,7 +172,7 @@ const pieces = [
     status: "sold",
     soldDate: "2026-09-10",
     featured: false,
-    instagramUrl: "https://www.instagram.com",
+    instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "ufolamp.jpg"
   },
   {
@@ -183,7 +183,7 @@ const pieces = [
     status: "sold",
     soldDate: "2026-09-13",
     featured: false,
-    instagramUrl: "https://www.instagram.com",
+    instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "sonnemanbankerlamp.jpg"
   },
   {
