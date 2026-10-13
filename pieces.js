@@ -119,7 +119,7 @@ const pieces = [
     category: "storage",
     price: "$1650",
     status: "available",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/p/DeQHUY4m3aG/?utm_source=ig_web_copy_link&rpxt=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
     image: "Sculptra.jpg"
   },
