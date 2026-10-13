@@ -221,8 +221,9 @@ const pieces = [
     era: "1970s · Chrome",
     category: "seating",
     price: "$1250",
-    status: "available",
-    featured: true,
+    status: "sold",
+    featured: false,
+    soldDate: "2026-10-12",
     instagramUrl: "https://www.instagram.com/p/DbwFX8wG6YW/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
     image: "MBChairs.jpg"
   },
