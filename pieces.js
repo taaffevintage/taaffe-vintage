@@ -74,13 +74,23 @@
 
 const pieces = [
   {
+    name: "Vintage 1970's Lane Brutalist Staccato 9-Drawer Walnut Mid Century Dresser",
+    era: "1970s · Walnut",
+    category: "storage",
+    price: "$2895",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "Brutalist.jpg"
+  },
+  {
     name: "Vintage Mid Century 9-drawer Walnut Lowboy Dresser by Stanley",
     era: "1960s · Walnut",
     category: "storage",
     price: "$1495",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/",
+    instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "Stanley.jpg"
   },
   {
