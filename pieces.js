@@ -74,6 +74,16 @@
 
 const pieces = [
   {
+    name: "Vintage 1950s Hülsta-Worke Rosewood Media Cabinet",
+    era: "1950s · Rosewood",
+    category: "storage",
+    price: "$450",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/Deh5YJrGwSA/?utm_source=ig_web_copy_link&srtk=MzRlODBiNWFlZA==",
+    image: "Hulsta.jpg"
+  },
+  {
     name: "Vintage 1970's Lane Brutalist Staccato 9-Drawer Walnut Mid Century Dresser",
     era: "1970s · Walnut",
     category: "storage",
@@ -90,7 +100,7 @@ const pieces = [
     price: "$1495",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/Dee73rsGyzO/?utm_source=ig_web_copy_link&psln=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
     image: "Stanley.jpg"
   },
   {
@@ -100,7 +110,7 @@ const pieces = [
     price: "$850",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DeSiVrMG91i/?utm_source=ig_web_copy_link&srtk=MzRlODBiNWFlZA==",
     image: "Rockford.jpg"
   },
   {
