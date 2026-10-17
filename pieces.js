@@ -74,6 +74,16 @@
 
 const pieces = [
   {
+    name: "Vintage Mid Century Mahogany Side Table by Mengel for Raymond Loewy",
+    era: "1960s · Mahogany",
+    category: "tables",
+    price: "$350",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DefiuPXG2vl/?utm_source=ig_web_copy_link&psln=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
+    image: "mengel.jpg"
+  },
+  {
     name: "Vintage 1950s Hülsta-Worke Rosewood Media Cabinet",
     era: "1950s · Rosewood",
     category: "storage",
