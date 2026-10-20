@@ -88,7 +88,8 @@ const pieces = [
     era: "1950s · Rosewood",
     category: "storage",
     price: "$450",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-10-20",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/Deh5YJrGwSA/?utm_source=ig_web_copy_link&srtk=MzRlODBiNWFlZA==",
     image: "Hulsta.jpg"
