@@ -196,28 +196,6 @@ const pieces = [
     image: "artdeco.jpg"
   },
   {
-    name: "Vintage Tensor Pittsburg Collection Lt627 Articulating and Dimmable Halogen Desk Lamp",
-    era: "1980s · Nickel",
-    category: "lighting-decor",
-    price: "$95",
-    status: "sold",
-    soldDate: "2026-09-10",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
-    image: "ufolamp.jpg"
-  },
-  {
-    name: "1980s Memphis Style Bankers Desk Lamp by Robert Sonneman for George Kovacs",
-    era: "1980s · Brass",
-    category: "lighting-decor",
-    price: "$80",
-    status: "sold",
-    soldDate: "2026-09-13",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
-    image: "sonnemanbankerlamp.jpg"
-  },
-  {
     name: "Vintage Walnut Gate Leg Dining Table With Drop Leaves After George Nelson for Herman Miller",
     era: "1960s · Walnut",
     category: "tables",
@@ -259,17 +237,6 @@ const pieces = [
     image: "MBChairs.jpg"
   },
   {
-    name: "Vintage 1970s Cane and Carved Solid Wood Chair and Ottoman Set",
-    era: "1970s · Solid Wood",
-    category: "seating",
-    price: "$795",
-    status: "sold",
-    soldDate: "2026-08-30",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DbbIQWGEdxd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "CaneChairOttoman.jpg"
-  },
-  {
     name: "Vintage 1970s Modular Brown Velvet \u201CPlaypen\u201D Sofa and Ottoman After Milo Baughman",
     era: "1970s · Velvet",
     category: "seating",
@@ -279,17 +246,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DbeElPCm228/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
     image: "Playpen2.jpg"
-  },
-  {
-    name: "Antique Solid Mission Carved Oak Wood Church Pew Bench",
-    era: "1900s · Solid Oak",
-    category: "seating",
-    price: "$550",
-    status: "sold",
-    soldDate: "2026-08-10",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
-    image: "ChurchPew.jpg"
   },
   {
     name: "Vintage 1970s MCM Teak Wood Converted Bar Cabinet",
@@ -303,17 +259,6 @@ const pieces = [
     image: "BarCabinet.jpg"
   },
   {
-    name: "American of Martinsville \u201CDania\u201D Walnut Modular Bench and Cabinet Attachment by Merton Gershun",
-    era: "1950s · Walnut",
-    category: "storage",
-    price: "$800",
-    status: "sold",
-    soldDate: "2026-08-20",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/Dbwe6nqG1I7/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
-    image: "AoMCabinet.jpg"
-  },
-  {
     name: "Antique Solid Wood Barley Twist Lamp Side/Table With Claw Feet After Merklen Furniture Company",
     era: "1890s · Solid Wood",
     category: "tables",
@@ -325,17 +270,6 @@ const pieces = [
     image: "BarleyTable.jpg"
   },
   {
-    name: "Vintage 1970s Mid-Century Modern Sonneman “Waterfall” Cascading Globe Floor Lamp in Brass",
-    era: "1970s · Brass",
-    category: "lighting-decor",
-    price: "$450",
-    status: "sold",
-    soldDate: "2026-08-20",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DbLdYz1jmy2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "SonnemanTallLamp.jpg"
-  },
-  {
     name: "Refinished American of Martinsville \u201CDania\u201D Walnut Modular Bench and Desk/Bar Cabinet Attachment by Merton Gershun",
     era: "1950s · Walnut",
     category: "storage",
@@ -344,17 +278,6 @@ const pieces = [
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DbbD4fkEV95/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "AoMDesk.jpg"
-  },
-  {
-    name: "Vintage MCM Teak Media Cabinet/Console With “Exoskeleton” Legs and Sliding Doors",
-    era: "1960s · Teak",
-    category: "storage",
-    price: "$750",
-    status: "sold",
-    soldDate: "2026=08-01",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DbEIgDcm7w8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "mediaconsole.jpg"
   },
   {
     name: "Vintage Rembrandt Stiffel Brass Table Lamp",
@@ -377,17 +300,6 @@ const pieces = [
     image: "waterfalllamp.jpg"
   },
   {
-    name: "Vintage \u201CBoulevard of Broken Dreams\u201D Painting Print with Pink Neon Light",
-    era: "1980s · Neon",
-    category: "lighting-decor",
-    price: "$525",
-    status: "sold",
-    soldDate: "2026-09-19",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
-    image: "singleneon.jpg"
-  },
-  {
     name: "Victorian Footed Marble and Brass Table Lamp with Fabric Fringe/Tassel Lamp Shade",
     era: "1960s · Brass/Marble",
     category: "lighting-decor",
@@ -406,39 +318,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "rosewoodheadboard.jpg"
-  },
-  {
-    name: "Monte Design Group \u201CJoya\u201D Rocker Rocking Chair",
-    era: "2020s · Walnut",
-    category: "seating",
-    price: "$575",
-    status: "sold",
-    soldDate: "2026-09-06",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DZTVoJwm7cG/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
-    image: "joya.jpg"
-  },
-  {
-    name: "1950s Vintage Mid-Century Modern Cane Back Bench",
-    era: "1950s · Plum Bench",
-    category: "seating",
-    price: "$1500",
-    status: "sold",
-    soldDate: "2026-07-21",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DYsJP-kG-rL/?igsh=eGJkNWJmOGJhdmhh",
-    image: "plumcanebench.jpg"
-  },
-  {
-    name: "Vintage 1970s Lane Staccato Brutalist Large Mirror",
-    era: "1970s · Oak",
-    category: "lighting-decor",
-    price: "$95",
-    status: "sold",
-    soldDate: "2026-08-01",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DYYOYSlmxHq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "brutalist-mirror.jpg"
   },
   {
     name: "Vintage Henredon Mahogany Clawfoot or Claw Foot Side/End Table",
@@ -461,50 +340,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/C769jQDJi_T/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
     image: "romeorega-etagere.jpg"
-  },
-  {
-    name: "Adrian Pearsall for Craft Associates Mid-Century Modern Cube Plinth Planter",
-    era: "1960s · Walnut",
-    category: "lighting-decor",
-    price: "$375",
-    status: "sold",
-    soldDate: "2026-09-10",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DWZp7p2FLF7/?igsh=MTJhbTVudjljZTN4OQ==",
-    image: "pearsall-planter.jpg"
-  },
-  {
-    name: "Vintage Danish Teak Tallboy Chifforobe or Tallboy Dresser",
-    era: "1970s · Teak",
-    category: "storage",
-    price: "$1095",
-    status: "sold",
-    soldDate: "2026-08-30",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DWJ0OLhjnkE/?igsh=MTltamdiN3dsZWMzZA==",
-    image: "chifforobe.jpg"
-  },
-  {
-    name: "Lane Staccato Brutalist Mid Century Walnut Queen Headboard",
-    era: "1970s · Walnut",
-    category: "storage",
-    price: "$595",
-    status: "sold",
-    soldDate: "2026-08-13",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DVRsYHQESQa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    image: "lane-headboard.jpg"
-  },
-  {
-    name: "Mid 20th Century Modern Rosewood Extendable Dining Table",
-    era: "1960s · Rosewood",
-    category: "tables",
-    price: "$350",
-    status: "sold",
-    soldDate: "2026-09-04",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/DUtWLXskeW9/?igsh=MWZ2M2R6eTdzMG85",
-    image: "rosewood-table.jpg"
   },
   {
     name: "Vintage Rustic Solid Reclaimed Wood Farmhouse Bookcase",
@@ -576,17 +411,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/p/CwvFAuhJTWp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     image: "street-painting.jpg"
-  },
-  {
-    name: "Anchor Hocking Amber Yellow Pinched Glass Chip and Dip Bowl Set",
-    era: "1970s · Glass",
-    category: "lighting-decor",
-    price: "$30",
-    status: "sold",
-    soldDate: "2026-09-09",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/p/Cs_ciMDg5FG/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
-    image: "chipdip.jpg"
   },
   {
     name: "Vintage 3-Way Dual Lamp after Gerald Thurston",
