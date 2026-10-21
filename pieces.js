@@ -370,7 +370,7 @@ const pieces = [
     name: "Vintage Brass Waterfall/Tiered Eyeball Lamp after Sonneman",
     era: "1970s · Brass",
     category: "lighting-decor",
-    price: "$450",
+    price: "$425",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
