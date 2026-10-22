@@ -84,6 +84,16 @@ const pieces = [
     image: "mengel.jpg"
   },
   {
+    name: "Victorian Footed Marble and Brass Table Lamp with Fabric Fringe/Tassel Lamp Shade",
+    era: "1940s · Brass/Marble",
+    category: "lighting-decor",
+    price: "$275",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage",
+    image: "artdecolamp.jpg"
+  },
+  {
     name: "Vintage 1950s Hülsta-Worke Rosewood Media Cabinet",
     era: "1950s · Rosewood",
     category: "storage",
@@ -298,16 +308,6 @@ const pieces = [
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "waterfalllamp.jpg"
-  },
-  {
-    name: "Victorian Footed Marble and Brass Table Lamp with Fabric Fringe/Tassel Lamp Shade",
-    era: "1960s · Brass/Marble",
-    category: "lighting-decor",
-    price: "$295",
-    status: "available",
-    featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
-    image: "artdecolamp.jpg"
   },
   {
     name: "Rare Lane Altavista Brutalist Rosewood and Walnut Headboard by Paul McCobb in King",
