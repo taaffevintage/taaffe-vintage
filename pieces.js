@@ -109,7 +109,8 @@ const pieces = [
     era: "1970s · Walnut",
     category: "storage",
     price: "$2895",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-10-23",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "Brutalist.jpg"
