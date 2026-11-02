@@ -74,6 +74,16 @@
 
 const pieces = [
   {
+    name: "1950s Vintage Mid-Century Modern Tufted Cane Back Bench",
+    era: "1950s · Walnut Tone",
+    category: "seating",
+    price: "$1500",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DfPolngG_KQ/?utm_source=ig_web_copy_link&xtok=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
+    image: "CaneBench.jpg"
+  },
+  {
     name: "Vintage Mid Century Mahogany Side Table by Mengel for Raymond Loewy",
     era: "1960s · Mahogany",
     category: "tables",
