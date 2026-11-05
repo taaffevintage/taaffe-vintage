@@ -334,7 +334,7 @@ const pieces = [
     name: "Rare Lane Altavista Brutalist Rosewood and Walnut Headboard by Paul McCobb in King",
     era: "1970s · Rosewood and Walnut",
     category: "storage",
-    price: "$975",
+    price: "$850",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
