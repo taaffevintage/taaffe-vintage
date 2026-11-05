@@ -74,6 +74,16 @@
 
 const pieces = [
   {
+    name: "Vintage Hand Carved Imported Mahogany with Brass Inlay Jewelry Box",
+    era: "1950s · Mahogany",
+    category: "lighting-decor",
+    price: "$95",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DfXwnydG-xW/?utm_source=ig_web_copy_link&vrfl=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
+    image: "jewelrybox.jpg"
+  },
+  {
     name: "1950s Vintage Mid-Century Modern Tufted Cane Back Bench",
     era: "1950s · Walnut Tone",
     category: "seating",
