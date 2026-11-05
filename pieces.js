@@ -100,7 +100,7 @@ const pieces = [
     price: "$275",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DezThh6FL2J/?utm_source=ig_web_copy_link&rpxt=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
     image: "artdecolamp.jpg"
   },
   {
@@ -122,7 +122,7 @@ const pieces = [
     status: "sold",
     soldDate: "2026-10-23",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DekZz8lG5N8/?utm_source=ig_web_copy_link&psln=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
     image: "Brutalist.jpg"
   },
   {
@@ -152,7 +152,7 @@ const pieces = [
     price: "$1250",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/De2TPOiG_qY/?utm_source=ig_web_copy_link&dlrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
     image: "Fresco.jpg"
   },
   {
@@ -162,7 +162,7 @@ const pieces = [
     price: "$1500",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/DeuUn71m97i/?utm_source=ig_web_copy_link&srtk=MzRlODBiNWFlZA==",
     image: "BacklessStools.jpg"
   },
   {
@@ -317,7 +317,7 @@ const pieces = [
     price: "$425",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage",
+    instagramUrl: "https://www.instagram.com/p/Dewt_zYGwwY/?utm_source=ig_web_copy_link&dlrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
     image: "waterfalllamp.jpg"
   },
   {
