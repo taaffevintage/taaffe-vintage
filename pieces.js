@@ -304,7 +304,7 @@ const pieces = [
     name: "Refinished American of Martinsville \u201CDania\u201D Walnut Modular Bench and Desk/Bar Cabinet Attachment by Merton Gershun",
     era: "1950s · Walnut",
     category: "storage",
-    price: "$1200",
+    price: "$1095",
     status: "available",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DbbD4fkEV95/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
