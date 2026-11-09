@@ -200,7 +200,8 @@ const pieces = [
     era: "1970s · Brass",
     category: "lighting-decor",
     price: "$450",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-11-07",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DeKOdlpmyht/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     image: "LuciteLamps.jpg"
@@ -417,7 +418,8 @@ const pieces = [
     era: "1970s · Glass",
     category: "lighting-decor",
     price: "$45",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-11-07",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/C0Pwz25pt3J/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
     image: "blueglasses.jpg"
