@@ -140,7 +140,8 @@ const pieces = [
     era: "1960s · Walnut",
     category: "storage",
     price: "$1495",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-11-09",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/Dee73rsGyzO/?utm_source=ig_web_copy_link&psln=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
     image: "Stanley.jpg"
