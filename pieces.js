@@ -337,7 +337,8 @@ const pieces = [
     era: "1970s · Rosewood and Walnut",
     category: "storage",
     price: "$850",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-11-06",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage",
     image: "rosewoodheadboard.jpg"
