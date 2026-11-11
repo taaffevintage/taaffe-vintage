@@ -213,7 +213,7 @@ const pieces = [
     category: "tables",
     price: "$395",
     status: "available",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/p/DcjGK8DkWeR/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     image: "danishtilecoffeetable.jpg"
   },
@@ -287,7 +287,7 @@ const pieces = [
     price: "$595",
     oldPrice: "$795",
     status: "drop",
-    featured: true,
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DbJ8SlMG8ec/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
     image: "BarCabinet.jpg"
   },
