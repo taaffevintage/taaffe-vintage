@@ -285,8 +285,8 @@ const pieces = [
     era: "1970s · Teak",
     category: "storage",
     price: "$595",
-    oldPrice: "$795",
-    status: "drop",
+    status: "sold",
+    soldDate: "2026-11-10",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/DbJ8SlMG8ec/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==",
     image: "BarCabinet.jpg"
