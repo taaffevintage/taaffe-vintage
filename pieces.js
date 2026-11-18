@@ -74,6 +74,76 @@
 
 const pieces = [
   {
+    name: "Vintage 1950s Tallboy Dresser in Kindling Brown by Gluck Bros. Inc.",
+    era: "1950s · Wood",
+    category: "storage",
+    price: "$250",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "DixieBelleDresser.jpg"
+  },
+  {
+    name: "Vintage 1980s Postmodern Squiggle Floor Lamps (Priced Each)",
+    era: "1980s · Metal",
+    category: "lighting-decor",
+    price: "$450",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "SquiggleLamps.jpg"
+  },
+  {
+    name: "Vintage Late 20th Century Brutalist Solid Oak Side Table",
+    era: "1980s · Oak",
+    category: "tables",
+    price: "$150",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "OakTable.jpg"
+  },
+  {
+    name: "Vintage Mid Century Walnut Side Table or Nightstand by Stanley",
+    era: "1950s · Walnut",
+    category: "tables",
+    price: "$195",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "StanleySideTable.jpg"
+  },
+  {
+    name: "Vintage Mid Century 3-drawer Walnut Small Dresser or Oversized Nightstand by Stanley",
+    era: "1950s · Walnut",
+    category: "storage",
+    price: "$450",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "Stanley3drawer.jpg"
+  },
+  {
+    name: "Vintage Mid Century 5-drawer Walnut Tallboy Dresser by Stanley",
+    era: "1950s · Walnut",
+    category: "storage",
+    price: "$795",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "StanleyTallboy.jpg"
+  },
+  {
+    name: "Vintage 1980s Memphis Style Bankers Desk Lamps by Robert Sonneman for George Kovacs - Set of 2",
+    era: "1970s · Metal/Glass",
+    category: "lighting-decor",
+    price: "$175",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/p/DfsrVpmG-_p/?utm_source=ig_web_copy_link&bqrl=MzRlODBiNWFlZA==&avpt=MzRlODBiNWFlZA==",
+    image: "SonnemanBankerLamps.jpg"
+  },
+  {
     name: "Vintage Hand Carved Imported Mahogany with Brass Inlay Jewelry Box",
     era: "1950s · Mahogany",
     category: "lighting-decor",
