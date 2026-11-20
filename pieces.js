@@ -159,7 +159,7 @@ const pieces = [
     category: "seating",
     price: "$1500",
     status: "available",
-    featured: false,
+    featured: true,
     instagramUrl: "https://www.instagram.com/p/DfPolngG_KQ/?utm_source=ig_web_copy_link&xtok=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
     image: "CaneBench.jpg"
   },
@@ -282,8 +282,9 @@ const pieces = [
     era: "1960s · Teak",
     category: "tables",
     price: "$395",
-    status: "available",
-    featured: true,
+    status: "sold",
+    soldDate: "2026-11-20",
+    featured: false,
     instagramUrl: "https://www.instagram.com/p/DcjGK8DkWeR/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     image: "danishtilecoffeetable.jpg"
   },
