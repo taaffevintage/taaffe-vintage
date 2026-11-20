@@ -120,7 +120,7 @@ const pieces = [
     price: "$450",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    instagramUrl: "https://www.instagram.com/p/Df73meZmxy_/?utm_source=ig_web_copy_link&avpt=MzRlODBiNWFlZA==",
     image: "Stanley3drawer.jpg"
   },
   {
@@ -130,7 +130,7 @@ const pieces = [
     price: "$795",
     status: "available",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    instagramUrl: "https://www.instagram.com/p/Df7y6U7Gy2g/?utm_source=ig_web_copy_link&fqnt=MzRlODBiNWFlZA==&avpt=MzRlODBiNWFlZA==",
     image: "StanleyTallboy.jpg"
   },
   {
