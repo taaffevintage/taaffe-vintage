@@ -323,8 +323,9 @@ const pieces = [
     name: "Vintage 1970s Mid Century MCM Tulip Style Chrome Swivel Bar Stools",
     era: "1970s · Chrome",
     category: "seating",
-    price: "$895",
-    status: "available",
+    price: "$695",
+    oldPrice: "$895",
+    status: "drop",
     featured: true,
     instagramUrl: "https://www.instagram.com/p/DczFkC3m98c/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     image: "SeafoamStools.jpg"
