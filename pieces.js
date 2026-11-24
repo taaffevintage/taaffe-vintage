@@ -108,7 +108,8 @@ const pieces = [
     era: "1950s · Walnut",
     category: "tables",
     price: "$195",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-11-22",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage/",
     image: "StanleySideTable.jpg"
@@ -118,7 +119,8 @@ const pieces = [
     era: "1950s · Walnut",
     category: "storage",
     price: "$450",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-11-22",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/Df73meZmxy_/?utm_source=ig_web_copy_link&avpt=MzRlODBiNWFlZA==",
     image: "Stanley3drawer.jpg"
@@ -128,7 +130,8 @@ const pieces = [
     era: "1950s · Walnut",
     category: "storage",
     price: "$795",
-    status: "available",
+    status: "sold",
+    soldDate: "2026-11-22",
     featured: false,
     instagramUrl: "https://www.instagram.com/p/Df7y6U7Gy2g/?utm_source=ig_web_copy_link&fqnt=MzRlODBiNWFlZA==&avpt=MzRlODBiNWFlZA==",
     image: "StanleyTallboy.jpg"
