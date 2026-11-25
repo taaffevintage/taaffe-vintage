@@ -74,6 +74,36 @@
 
 const pieces = [
   {
+    name: "Vintage 1970s Mid Century Cascading Globe Table Lamp",
+    era: "1970s · Chrome",
+    category: "lighting-decor",
+    price: "$195",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "globelamp.jpg"
+  },
+  {
+    name: "Vintage Mid Century Gold/Black Ice Bucket",
+    era: "1970s · Acrylic/Plastic",
+    category: "lighting-decor",
+    price: "$35",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "icebucket.jpg"
+  },
+  {
+    name: "Vintage MCM 3-drawer Dresser with “Exoskeleton” Legs",
+    era: "1960s · Metal/Wood",
+    category: "tables",
+    price: "$1595",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "3drawer.jpg"
+  },
+  {
     name: "Vintage 1950s Tallboy Dresser in Kindling Brown by Gluck Bros. Inc.",
     era: "1950s · Wood",
     category: "storage",
@@ -111,7 +141,7 @@ const pieces = [
     status: "sold",
     soldDate: "2026-11-22",
     featured: false,
-    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    instagramUrl: "https://www.instagram.com/p/DgEBi5JG-DW/?utm_source=ig_web_copy_link&dmpr=MzRlODBiNWFlZA==&avpt=MzRlODBiNWFlZA==",
     image: "StanleySideTable.jpg"
   },
   {
