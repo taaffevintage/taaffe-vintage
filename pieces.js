@@ -97,7 +97,7 @@ const pieces = [
     name: "Vintage MCM 3-drawer Dresser with “Exoskeleton” Legs",
     era: "1960s · Metal/Wood",
     category: "tables",
-    price: "$1595",
+    price: "$195",
     status: "available",
     featured: false,
     instagramUrl: "https://www.instagram.com/taaffevintage/",
