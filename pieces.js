@@ -74,6 +74,16 @@
 
 const pieces = [
   {
+    name: "Vintage 1970s Mid Century MCM Lane Staccato “Brutalist” Oak 9-drawer Dresser",
+    era: "1970s · Oak",
+    category: "storage",
+    price: "$2295",
+    status: "available",
+    featured: false,
+    instagramUrl: "https://www.instagram.com/taaffevintage/",
+    image: "oakbrutalist.jpg"
+  },
+  {
     name: "Vintage 1970s Mid Century Cascading Globe Table Lamp",
     era: "1970s · Chrome",
     category: "lighting-decor",
